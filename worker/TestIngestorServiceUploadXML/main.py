@@ -139,9 +139,10 @@ def compress_to_gz_file(file_name):
 
 if __name__ == '__main__':
 
+    folder = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data')
     upload_file = 'test_delta.xml'
     env = 'stg'
-    # env = 'prod'
+    env = 'prod'
 
     if env == 'stg':
         # # staging
@@ -174,7 +175,7 @@ if __name__ == '__main__':
     print('upload file: {upload_file}'.format(upload_file=upload_file))
     auth_token = get_auth_token(auth_url, account['username'], account['password'])
     print(auth_token)
-    gz_file = compress_to_gz_file( "./data/{file_name}".format(file_name=upload_file))
+    gz_file = compress_to_gz_file( "{folder}/{file_name}".format(folder=folder, file_name=upload_file))
     # print(gz_file)
 
     response = upload_xml(up_url, auth_token, gz_file)
