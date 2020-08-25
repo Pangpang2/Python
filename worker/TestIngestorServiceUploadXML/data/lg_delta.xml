@@ -1,0 +1,39 @@
+<udbf-3>
+    <service_information>
+        <initial>0</initial>
+        <version>2.1</version>
+        <portion_date>2019-08-16T02:58:45.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Lighthouse</pms_vendor>
+        <username>translator_delta</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Recalls>
+<record><ID>DN01</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription></record>
+<record><ID>DN02</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID></AppointmentID></record>
+<record><ID>DN03</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID>1000000</AppointmentID></record>
+<record><ID>D001</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID>1</AppointmentID></record>
+<record><ID>D002</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>D1</AppointmentID></record>
+<record><ID>D003</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>D1000</AppointmentID></record>
+</Recalls>
+<Appointments>
+<record><ID>D1</ID><PatientID>1</PatientID><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><AppointmentDateTime>2019-11-21T08:00:00.000</AppointmentDateTime><Duration>50</Duration><Amount>100</Amount><Status>confirmed</Status><Noshow>0</Noshow><CreatedDate>2018-05-08</CreatedDate><Facility>OP01</Facility><Flag>0</Flag><Description>New appointment for Patient 1</Description><ConfirmedDate>2015-07-27</ConfirmedDate><AppointmentType>0</AppointmentType></record>
+</Appointments>
+</insert>
+<update>
+<Recalls>
+<record><ID>002</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>2</AppointmentID></record>
+<record><ID>003</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>D1</AppointmentID></record>
+<record><ID>004</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>3</AppointmentID></record>
+<record><ID>N04</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-20</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription></record>
+<record><ID>N05</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-20</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID></AppointmentID></record>
+<record><ID>N06</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-20</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID>1000000</AppointmentID></record>
+</Recalls>
+</update>
+<delete>
+<Recalls>
+<record><ID>005</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-18</RecallDate><StaffID>0001</StaffID><Status>3</Status><RecallType>ForDeltaDelete</RecallType><RecallTypeID>3</RecallTypeID><RecallTypeDescription>For Delta delete</RecallTypeDescription><AppointmentID>2</AppointmentID></record>
+</Recalls>
+</delete>
+</udbf-3>

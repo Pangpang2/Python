@@ -1,0 +1,5 @@
+<Customer id="{{BusinessCustomerID}}" provider="{{Provider}}">
+    <Demographics firstName="{{FirstName}}" lastName="{{LastName}}" address1="{{Address1}}" city="{{City}}"
+                  state="{{State}}" zip="{{ZipCode}}" homePhone="{{HomePhone}}" cellPhone="{{CellPhone}}"
+                  email="{{Email}}" />
+</Customer>

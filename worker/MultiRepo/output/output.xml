@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190910 01:52:04.070" generator="Robot 3.0.1 (Python 2.7.9 on win32)">
+<suite source="E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148" id="s1" name="BP Support Tool 09102019 015148">
+<suite source="E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\desktop_tests" id="s1-s1" name="Desktop Tests">
+<suite source="E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\desktop_tests\supportTool.txt" id="s1-s1-s1" name="supportTool">
+<test id="s1-s1-s1-t1" name="testTranslateFile">
+<kw type="setup" name="Login To Support Tool And Navigate To Client Data Viewer Page Setup" library="setups">
+<doc>Login Support Tool and navigate to client data viewer page</doc>
+<arguments>
+<arg>${client_username}</arg>
+</arguments>
+<kw name="Login To Support Tool Setup" library="setups">
+<doc>Login Support Tool</doc>
+<kw name="Basic Selenium ST Test Setup" library="setups">
+<doc>Goes to the local  main page and opens the login form at the top right of the page, but does not log in.</doc>
+<kw name="glados setup" library="glados_keywords">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<arguments>
+<arg>epoch</arg>
+<arg>UTC</arg>
+</arguments>
+<assign>
+<var>${UTC_TIME_START}</var>
+</assign>
+<msg timestamp="20190910 01:52:09.919" level="INFO">${UTC_TIME_START} = 1568130729</msg>
+<status status="PASS" endtime="20190910 01:52:09.919" starttime="20190910 01:52:09.918"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${ENVIRONMENT}</arg>
+<arg>staging</arg>
+</arguments>
+<assign>
+<var>${ENVIRONMENT}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.263" level="INFO">${ENVIRONMENT} = staging</msg>
+<status status="PASS" endtime="20190910 01:52:10.264" starttime="20190910 01:52:09.922"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${BROWSER}</arg>
+<arg>chrome</arg>
+</arguments>
+<assign>
+<var>${BROWSER}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.267" level="INFO">${BROWSER} = chrome</msg>
+<status status="PASS" endtime="20190910 01:52:10.267" starttime="20190910 01:52:10.266"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${PLATFORM.upper()}</arg>
+<arg>WINDOWS</arg>
+</arguments>
+<assign>
+<var>${PLATFORM}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.449" level="INFO">${PLATFORM} = WINDOWS</msg>
+<status status="PASS" endtime="20190910 01:52:10.449" starttime="20190910 01:52:10.270"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${PLATFORMNAME.upper()}</arg>
+<arg>${PLATFORM}</arg>
+</arguments>
+<assign>
+<var>${PLATFORMNAME}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.606" level="INFO">${PLATFORMNAME} = WINDOWS</msg>
+<status status="PASS" endtime="20190910 01:52:10.606" starttime="20190910 01:52:10.451"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${VERSION}</arg>
+<arg>${EMPTY}</arg>
+</arguments>
+<assign>
+<var>${VERSION}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.720" level="INFO">${VERSION} = </msg>
+<status status="PASS" endtime="20190910 01:52:10.720" starttime="20190910 01:52:10.609"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${JENKINS_URL}</arg>
+<arg>${EMPTY}</arg>
+</arguments>
+<assign>
+<var>${JENKINS_URL}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.785" level="INFO">${JENKINS_URL} = </msg>
+<status status="PASS" endtime="20190910 01:52:10.785" starttime="20190910 01:52:10.722"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${REMOTE}</arg>
+<arg>${EMPTY}</arg>
+</arguments>
+<assign>
+<var>${REMOTE}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.787" level="INFO">${REMOTE} = http://qaaew707-vm.carsdirect.win:4444/wd/hub</msg>
+<status status="PASS" endtime="20190910 01:52:10.787" starttime="20190910 01:52:10.787"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${MULTI_REPO_TEST}</arg>
+<arg>${False}</arg>
+</arguments>
+<assign>
+<var>${MULTI_REPO_TEST}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.859" level="INFO">${MULTI_REPO_TEST} = False</msg>
+<status status="PASS" endtime="20190910 01:52:10.859" starttime="20190910 01:52:10.789"></status>
+</kw>
+<kw name="Get Variable Value" library="BuiltIn">
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<arguments>
+<arg>${DEVICE}</arg>
+<arg>${EMPTY}</arg>
+</arguments>
+<assign>
+<var>${DEVICE}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.922" level="INFO">${DEVICE} = </msg>
+<status status="PASS" endtime="20190910 01:52:10.922" starttime="20190910 01:52:10.860"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${UTC_TIME_START}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.924" level="INFO">${UTC_TIME_START} = 1568130729</msg>
+<status status="PASS" endtime="20190910 01:52:10.924" starttime="20190910 01:52:10.923"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${ENVIRONMENT}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.926" level="INFO">${ENVIRONMENT} = staging</msg>
+<status status="PASS" endtime="20190910 01:52:10.926" starttime="20190910 01:52:10.925"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.927" level="INFO">${BROWSER} = chrome</msg>
+<status status="PASS" endtime="20190910 01:52:10.927" starttime="20190910 01:52:10.927"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${JENKINS_URL}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.931" level="INFO">${JENKINS_URL} = </msg>
+<status status="PASS" endtime="20190910 01:52:10.931" starttime="20190910 01:52:10.930"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${REMOTE}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.933" level="INFO">${REMOTE} = http://qaaew707-vm.carsdirect.win:4444/wd/hub</msg>
+<status status="PASS" endtime="20190910 01:52:10.933" starttime="20190910 01:52:10.932"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${PLATFORMNAME}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.934" level="INFO">${PLATFORMNAME} = WINDOWS</msg>
+<status status="PASS" endtime="20190910 01:52:10.934" starttime="20190910 01:52:10.934"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${PLATFORM}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.935" level="INFO">${PLATFORM} = WINDOWS</msg>
+<status status="PASS" endtime="20190910 01:52:10.936" starttime="20190910 01:52:10.935"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${VERSION}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.937" level="INFO">${VERSION} = </msg>
+<status status="PASS" endtime="20190910 01:52:10.937" starttime="20190910 01:52:10.937"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${MULTI_REPO_TEST}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.939" level="INFO">${MULTI_REPO_TEST} = False</msg>
+<status status="PASS" endtime="20190910 01:52:10.939" starttime="20190910 01:52:10.938"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${DEVICE}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:10.940" level="INFO">${DEVICE} = </msg>
+<status status="PASS" endtime="20190910 01:52:10.940" starttime="20190910 01:52:10.940"></status>
+</kw>
+<kw name="platform library setup" library="glados_keywords">
+<doc>Switches between desktop "selenium2library" and mobile "spartan" library.</doc>
+<kw name="Set Variable If" library="BuiltIn">
+<doc>Sets variable based on the given condition.</doc>
+<arguments>
+<arg>'${device}' != '${EMPTY}'</arg>
+<arg>${PLATFORMLIBRARY_MOBILE}</arg>
+<arg>${PLATFORMLIBRARY_DESKTOP}</arg>
+</arguments>
+<assign>
+<var>${PLATFORMLIBRARY}</var>
+</assign>
+<msg timestamp="20190910 01:52:10.985" level="INFO">${PLATFORMLIBRARY} = Selenium2Library</msg>
+<status status="PASS" endtime="20190910 01:52:10.985" starttime="20190910 01:52:10.942"></status>
+</kw>
+<kw name="Import Library" library="BuiltIn">
+<doc>Imports a library with the given name and optional arguments.</doc>
+<arguments>
+<arg>${PLATFORMLIBRARY}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:10.987" starttime="20190910 01:52:10.986"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:10.987" starttime="20190910 01:52:10.941"></status>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>Register Keyword To Run On Failure</arg>
+<arg>NOTHING</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:10.988" starttime="20190910 01:52:10.988"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:10.988" starttime="20190910 01:52:09.915"></status>
+</kw>
+<kw name="Generate ST Base Page URL" library="pom_base_page">
+<doc>Generates the base page URL that all pages contain. Also is the URL to go to when logging in.</doc>
+<assign>
+<var>${baseURL}</var>
+</assign>
+<kw name="Set Variable If" library="BuiltIn">
+<doc>Sets variable based on the given condition.</doc>
+<arguments>
+<arg>"${ENV}"=="stg"</arg>
+<arg>http://stg-ibex.internetbrands.com/logs</arg>
+<arg>"${ENV}"=="prod"</arg>
+<arg>http://ibex-support.internetbrands.com/logs</arg>
+<arg>http://stg-ibex.internetbrands.com/logs</arg>
+</arguments>
+<assign>
+<var>${baseURL}</var>
+</assign>
+<msg timestamp="20190910 01:52:11.027" level="INFO">${baseURL} = http://stg-ibex.internetbrands.com/logs</msg>
+<status status="PASS" endtime="20190910 01:52:11.027" starttime="20190910 01:52:10.991"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${baseURL}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:11.029" level="INFO">${baseURL} = http://stg-ibex.internetbrands.com/logs</msg>
+<status status="PASS" endtime="20190910 01:52:11.029" starttime="20190910 01:52:11.028"></status>
+</kw>
+<kw name="Return From Keyword" library="BuiltIn">
+<doc>Returns from the enclosing user keyword.</doc>
+<arguments>
+<arg>${baseURL}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:11.030" level="INFO">Returning from the enclosing user keyword.</msg>
+<status status="PASS" endtime="20190910 01:52:11.030" starttime="20190910 01:52:11.030"></status>
+</kw>
+<msg timestamp="20190910 01:52:11.031" level="INFO">${baseURL} = http://stg-ibex.internetbrands.com/logs</msg>
+<status status="PASS" endtime="20190910 01:52:11.031" starttime="20190910 01:52:10.989"></status>
+</kw>
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>marionette=${TRUE}</arg>
+<arg>platform=${PLATFORMNAME}</arg>
+<arg>acceptInsecureCerts=${TRUE}</arg>
+<arg>autoAcceptAlerts=${TRUE}</arg>
+<arg>version=${VERSION}</arg>
+</arguments>
+<assign>
+<var>${desired}</var>
+</assign>
+<msg timestamp="20190910 01:52:11.034" level="INFO">${desired} = {u'marionette': True, u'platform': u'WINDOWS', u'acceptInsecureCerts': True, u'autoAcceptAlerts': True, u'version': ''}</msg>
+<status status="PASS" endtime="20190910 01:52:11.034" starttime="20190910 01:52:11.033"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${baseURL}/index.html</arg>
+<arg>${BROWSER}</arg>
+<arg>${EMPTY}</arg>
+<arg>${REMOTE}</arg>
+<arg>${desired}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:11.036" level="INFO">Opening browser 'chrome' to base url 'http://stg-ibex.internetbrands.com/logs/index.html' through remote server at 'http://qaaew707-vm.carsdirect.win:4444/wd/hub'</msg>
+<status status="PASS" endtime="20190910 01:52:19.285" starttime="20190910 01:52:11.035"></status>
+</kw>
+<kw name="Delete All Cookies" library="Selenium2Library">
+<doc>Deletes all cookies.</doc>
+<status status="PASS" endtime="20190910 01:52:20.082" starttime="20190910 01:52:19.286"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20190910 01:52:20.707" starttime="20190910 01:52:20.092"></status>
+</kw>
+<kw name="Verify Support Tool Login Page Loaded" library="pom_loginPage">
+<doc>Verify if Support Tool login page loaded correctly</doc>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${loc_loginForm}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:21.808" starttime="20190910 01:52:20.721"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:21.808" starttime="20190910 01:52:20.715"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:21.809" starttime="20190910 01:52:09.910"></status>
+</kw>
+<kw name="Login Support Tool" library="pom_loginPage">
+<doc>1. Input username</doc>
+<arguments>
+<arg>ibex-support-tool-debug</arg>
+<arg>IBEXSupport1!</arg>
+</arguments>
+<kw name="Verify Support Tool Login Page Loaded" library="pom_loginPage">
+<doc>Verify if Support Tool login page loaded correctly</doc>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${loc_loginForm}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:22.547" starttime="20190910 01:52:21.813"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:22.547" starttime="20190910 01:52:21.811"></status>
+</kw>
+<kw name="Input Username In Support Tool Login Page" library="pom_loginPage">
+<doc>Input username in login page</doc>
+<arguments>
+<arg>${username}</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${loc_loginUsernameInput}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:23.458" starttime="20190910 01:52:22.551"></status>
+</kw>
+<kw name="Clear Element Text" library="Selenium2Library">
+<doc>Clears the text value of text entry element identified by `locator`.</doc>
+<arguments>
+<arg>${loc_loginUsernameInput}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:24.424" starttime="20190910 01:52:23.460"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${loc_loginUsernameInput}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:24.427" level="INFO">Typing text 'ibex-support-tool-debug' into text field 'css=input#login_username'</msg>
+<status status="PASS" endtime="20190910 01:52:25.941" starttime="20190910 01:52:24.426"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:25.941" starttime="20190910 01:52:22.549"></status>
+</kw>
+<kw name="Input Password In Support Tool Login Page" library="pom_loginPage">
+<doc>Input password in login page</doc>
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${loc_loginPasswordInput}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:26.849" starttime="20190910 01:52:25.944"></status>
+</kw>
+<kw name="Clear Element Text" library="Selenium2Library">
+<doc>Clears the text value of text entry element identified by `locator`.</doc>
+<arguments>
+<arg>${loc_loginPasswordInput}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:27.781" starttime="20190910 01:52:26.852"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${loc_loginPasswordInput}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:27.784" level="INFO">Typing text 'IBEXSupport1!' into text field 'css=input#login_password'</msg>
+<status status="PASS" endtime="20190910 01:52:29.119" starttime="20190910 01:52:27.783"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:29.120" starttime="20190910 01:52:25.942"></status>
+</kw>
+<kw name="Click Login For Support Tool Login Page" library="pom_loginPage">
+<doc>Click "login" in Support Tool login page</doc>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${loc_loginBtn}</arg>
+</arguments>
+<status status="PASS" endtime="20190910 01:52:30.074" starttime="20190910 01:52:29.126"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${loc_loginBtn}</arg>
+</arguments>
+<msg timestamp="20190910 01:52:30.076" level="INFO">Clicking element 'css=input#login_0'.</msg>
+<status status="PASS" endtime="20190910 01:52:31.466" starttime="20190910 01:52:30.076"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:31.467" starttime="20190910 01:52:29.122"></status>
+</kw>
+<status status="PASS" endtime="20190910 01:52:31.467" starttime="20190910 01:52:21.810"></status>
+</kw>
+<kw name="Verify Support Tool Home Page Loaded" library="pom_homePage">
+<doc>Verify if Support Tool home page loaded correctly</doc>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until element specified with `locator` is visible.</doc>
+<arguments>
+<arg>${loc_filterSerachForm}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20190910 01:52:38.395" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190910 01:52:38.396" starttime="20190910 01:52:36.982"></status>
+</kw>
+<msg timestamp="20190910 01:52:38.398" level="FAIL">Element locator 'css=form#filterSearch' did not match any elements after 5 seconds</msg>
+<status status="FAIL" endtime="20190910 01:52:38.398" starttime="20190910 01:52:31.471"></status>
+</kw>
+<status status="FAIL" endtime="20190910 01:52:38.399" starttime="20190910 01:52:31.469"></status>
+</kw>
+<status status="FAIL" endtime="20190910 01:52:38.399" starttime="20190910 01:52:09.907"></status>
+</kw>
+<status status="FAIL" endtime="20190910 01:52:38.399" starttime="20190910 01:52:09.903"></status>
+</kw>
+<doc>| Login to Support Tool and Navigate to Client Data Viewer Page.
+| Find translated file folder by given file name.
+| Click translte icon and wait until translation completed.
+
+Arguments: -v client_username -v file_name -v env
+
+_env(optional): stg or prod._</doc>
+<tags>
+<tag>translator</tag>
+</tags>
+<status status="FAIL" endtime="20190910 01:52:38.400" critical="yes" starttime="20190910 01:52:09.897">Setup failed:
+Element locator 'css=form#filterSearch' did not match any elements after 5 seconds</status>
+</test>
+<status status="FAIL" endtime="20190910 01:52:38.401" starttime="20190910 01:52:04.115"></status>
+</suite>
+<status status="FAIL" endtime="20190910 01:52:38.405" starttime="20190910 01:52:04.113"></status>
+</suite>
+<status status="FAIL" endtime="20190910 01:52:38.406" starttime="20190910 01:52:04.075"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">translator</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="BP Support Tool 09102019 015148" pass="0">BP Support Tool 09102019 015148</stat>
+<stat fail="1" id="s1-s1" name="Desktop Tests" pass="0">BP Support Tool 09102019 015148.Desktop Tests</stat>
+<stat fail="1" id="s1-s1-s1" name="supportTool" pass="0">BP Support Tool 09102019 015148.Desktop Tests.supportTool</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190910 01:52:05.635" level="ERROR">Error in file 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\glados_keywords.txt': Importing test library 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\testrail_api_glados.py' failed: ImportError: No module named builtins
+Traceback (most recent call last):
+  File "E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\testrail_api_glados.py", line 7, in &lt;module&gt;
+    from builtins import str
+PYTHONPATH:
+  C:\Python27\lib\site-packages\git\ext\gitdb
+  E:\Git\Python\tools\MultiRepo
+  E:\Git\Python
+  C:\Python27\python27.zip
+  C:\Python27\DLLs
+  C:\Python27\lib
+  C:\Python27\lib\plat-win
+  C:\Python27\lib\lib-tk
+  C:\Python27
+  C:\Python27\lib\site-packages
+  C:\Python27\lib\site-packages\wx-2.8-msw-unicode
+  C:\Python27\lib\site-packages\gitdb\ext\smmap</msg>
+<msg timestamp="20190910 01:52:05.641" level="ERROR">Error in file 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\glados_keywords.txt': Importing test library 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\glados_helper_functions.py' failed: ImportError: No module named future
+Traceback (most recent call last):
+  File "E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\glados_helper_functions.py", line 8, in &lt;module&gt;
+    from future import standard_library
+PYTHONPATH:
+  C:\Python27\lib\site-packages\git\ext\gitdb
+  E:\Git\Python\tools\MultiRepo
+  E:\Git\Python
+  C:\Python27\python27.zip
+  C:\Python27\DLLs
+  C:\Python27\lib
+  C:\Python27\lib\plat-win
+  C:\Python27\lib\lib-tk
+  C:\Python27
+  C:\Python27\lib\site-packages
+  C:\Python27\lib\site-packages\wx-2.8-msw-unicode
+  C:\Python27\lib\site-packages\gitdb\ext\smmap</msg>
+<msg timestamp="20190910 01:52:05.716" level="ERROR">Error in file 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\rf_Shinigami_AppEyes\screenshots.robot': Importing test library 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\rf_Shinigami_AppEyes\image_handling.py' failed: ImportError: No module named builtins
+Traceback (most recent call last):
+  File "E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\rf_Shinigami_AppEyes\image_handling.py", line 2, in &lt;module&gt;
+    from builtins import range
+PYTHONPATH:
+  C:\Python27\lib\site-packages\git\ext\gitdb
+  E:\Git\Python\tools\MultiRepo
+  E:\Git\Python
+  C:\Python27\python27.zip
+  C:\Python27\DLLs
+  C:\Python27\lib
+  C:\Python27\lib\plat-win
+  C:\Python27\lib\lib-tk
+  C:\Python27
+  C:\Python27\lib\site-packages
+  C:\Python27\lib\site-packages\wx-2.8-msw-unicode
+  C:\Python27\lib\site-packages\gitdb\ext\smmap</msg>
+<msg timestamp="20190910 01:52:05.731" level="ERROR">Error in file 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\rf_Shinigami_AppEyes\applitools.robot': Importing test library 'E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\rf_Shinigami_AppEyes\rf_Shinigami_AppEyes.py' failed: ImportError: No module named future
+Traceback (most recent call last):
+  File "E:\Git\Python\tools\MultiRepo\workspace\BP_Support_Tool_09102019_015148\glados\resources\rf_Shinigami_AppEyes\rf_Shinigami_AppEyes.py", line 3, in &lt;module&gt;
+    from future import standard_library
+PYTHONPATH:
+  C:\Python27\lib\site-packages\git\ext\gitdb
+  E:\Git\Python\tools\MultiRepo
+  E:\Git\Python
+  C:\Python27\python27.zip
+  C:\Python27\DLLs
+  C:\Python27\lib
+  C:\Python27\lib\plat-win
+  C:\Python27\lib\lib-tk
+  C:\Python27
+  C:\Python27\lib\site-packages
+  C:\Python27\lib\site-packages\wx-2.8-msw-unicode
+  C:\Python27\lib\site-packages\gitdb\ext\smmap</msg>
+</errors>
+</robot>

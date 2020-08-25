@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DemandForce licenseKey="16C214C3-F05D-BC6E-BBDA-819356D14574" scope="full" syncClient="IBExtractor">
+<Business>
+<Extract managementSystemName="Dentrix" managementSystemVersion="15.1.0" extractDateTime="2019-06-24T18:27:14" twoWayConfirmEnabled="1">
+<Param/>
+</Extract>
+<Firmographics/>
+<DFLinkSettings/>
+<Customer id="1" parentId="1" provider="FAKE_STAFF_1" defaultLocationId="SINGLE_OFFICE">
+<Demographics firstName="Active1" lastName="Status1" birthday="1982-12-13T00:00:00" address1="1234 Easy Street" city="Fakeyville" state="UT" zip="84003" email="rfPxCNgfS@d3one.com" noCorrespondence="false"/>
+<Appointment id="1001" provider="FAKE_STAFF_1" providerName="TestFName TestLName" providerId="FAKE_STAFF_1" date="2019-07-30T18:27:14" duration="30" description="AppointmentCodes"/>
+<ApptCode code="D4175" description="ANALGESIA (inhalation of nitrous oxide)" externalCode="D4275" id="125" />
+<Transaction id="10001" date="2019-06-27T15:27:14" charge="100.00" code="DFAKE_PROC_1" description="Charge 1" provider="FAKE_STAFF_1" providerName="TestFName TestLName" providerId="FAKE_STAFF_1" category="Diagnostic"/>
+<Transaction id="10002" date="2019-06-27T14:27:14" charge="200.00" code="DFAKE_PROC_2" description="Charge 2" provider="FAKE_STAFF_1" providerName="TestFName TestLName" providerId="FAKE_STAFF_1" category="Diagnostic"/>
+</Customer>
+<Customer id="2" parentId="1" provider="FAKE_STAFF_1" defaultLocationId="SINGLE_OFFICE">
+<Demographics firstName="Active2" lastName="Status2" birthday="1982-12-13T00:00:00" address1="1234 Easy Street" city="Fakeyville" state="UT" zip="84003" noCorrespondence="false"/>
+<Transaction id="10003" date="2019-06-27T13:27:14" charge="310.00" code="DFAKE_PROC_2" description="Charge 2" provider="FAKE_STAFF_1" providerName="TestFName TestLName" providerId="FAKE_STAFF_1" category="Diagnostic"/>
+<Transaction id="10004" date="2019-06-27T12:27:14" charge="320.00" code="DFAKE_PROC_2" description="Charge 2" provider="FAKE_STAFF_1" providerName="TestFName TestLName" providerId="FAKE_STAFF_1" category="Diagnostic"/>
+</Customer>
+<Facility facility="Alex G Bachoura: Consult">
+<CalendarBlock id="1" scheduledDate="2019-05-11T08:00:00" title="Holiday" duration="555" facility="Alex G Bachoura: Consult" notes="Memorial Day"/>
+<CalendarBlock id="2" scheduledDate="2019-04-30T08:00:00" title="Holiday" duration="555" facility="Alex G Bachoura: Consult" notes="Memorial Day"/>
+<CalendarBlock id="3" scheduledDate="2019-05-04T08:00:00" title="Holiday" duration="555" facility="Alex G Bachoura: Consult" notes="Memorial Day"/>
+<CalendarBlock id="4" scheduledDate="2019-05-01T08:00:00" title="Test" duration="555" facility="Alex G Bachoura: Consult" notes="Memorial Day"/>
+</Facility>
+<Provider id="FAKE_STAFF_1" firstName="TestFName" lastName="TestLName" bookingName="TestFName TestLName" code="FAKE_STAFF_1" active="1" type="Dentist"/>
+</Business>
+</DemandForce>

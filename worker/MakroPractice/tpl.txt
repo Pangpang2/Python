@@ -1,0 +1,42 @@
+<%def name="showOfficeAddress(office_list)">
+    <% index = 0 %>
+    % for office in office_list:
+            "${office['name']}":[
+                {
+                    "id": "${office['id']}",
+                    "street": "${office['street']}",
+                    "state": "${office['state']}",
+                    "city": "${office['city']}",
+                    "zipCode": "${office['zipcode']}"
+                }
+        <% index = index + 1 %>
+        % if index < len(office_list):
+            ],
+        % else:
+            ]
+        % endif
+    % endfor
+</%def>
+<%def name="showApprovedBy(approved_by)">
+    % if approved_by != 'null':
+        "approvedBy": ${approved_by},
+    % endif
+</%def>
+<%def name="showBlockUploads()">
+    <% index = 0 %>
+    % for block_upload in block_uploads:
+    {
+        "id": ${block_upload['id']},
+        ${showApprovedBy(block_upload['approved_by'])}
+        "officeAddresses": ${showOfficeAddress(block_upload['office_list'])},
+        <% index = index + 1 %>
+        % if index < len(block_uploads):
+            },
+        % else:
+            }
+        % endif
+    % endfor
+</%def>
+{
+       [${showBlockUploads()}]
+}

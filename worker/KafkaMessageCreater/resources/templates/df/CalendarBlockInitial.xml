@@ -1,0 +1,1 @@
+<CalendarBlock id="{{BusinessBlockID}}" scheduledDate="{{ScheduledDate}}" title="{{Title}}" duration="{{Duration}}" facility="{{Facility}}" notes="{{Notes}}"/>

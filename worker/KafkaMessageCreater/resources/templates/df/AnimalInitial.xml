@@ -1,0 +1,3 @@
+<Animal id="{{ManagementSystemID}}" name="{{String1}}" species="{{String2}}" breed="{{String3}}" coatColor="{{String4}}"
+        sex="{{String9}}" provider="{{String5}}" providerName="{{String6}}" birthday="{{Anniversary}}"
+        firstVisit="{{FirstVisit}}" lastVisit="{{LastVisit}}" weight="{{Double1}}" weightUnits="{{String7}}"/>

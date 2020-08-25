@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><DemandForce componentUrl="https://secure.demandforce.com/dflinkqa/setup/" dFAPI="d3rowapi.dll" dFAPIVersion="3.0.55.0" dFLinkVersion="3.7.73" dFUpdateVersion="3.0.5.0" dataLocation="C:\ROWriterTest\roWrite\3\ROWriter.mdb" licenseKey="EF83EAAB-2D7D-3A0F-7436-DC6BF76DDED1" scope="full" systemName="D3ONE-ROWRITER2" systemOS="Microsoft Windows XP Professional Service Pack 1 (Build 2600)" systemUser="vm">
+<Business>
+<Extract extractDateTime="2020-04-18T18:55:37-08:00" managementSystemName="R.O. Writer" managementSystemVersion="All" processingTime="255"></Extract>
+<Customer id="333">
+    <Demographics firstName="Test3"/>
+    <Vehicle id="24" license="BIM9346" licenseState="GA Delete" make="MAZDA_22" model="MIATA" vin="JM1NA3535V0721350" year="1997">
+    </Vehicle>
+  </Customer>
+
+</Business>
+</DemandForce>

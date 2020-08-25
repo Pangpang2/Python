@@ -1,0 +1,1 @@
+<Diagnosis id="{{ManagementSystemID}}" date="{{Date1}}" internalCode="{{String1}}" externalCode="{{String2}}" description="{{String4}}" category="{{String3}}" dismissed="{{Boolean1}}"/>

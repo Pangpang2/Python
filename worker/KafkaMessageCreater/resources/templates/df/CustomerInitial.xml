@@ -1,0 +1,8 @@
+<Customer id="{{BusinessCustomerID}}" parentId="{{ParentId}}" chartId="{{ChartId}}" provider="{{Provider}}" type="{{Type}}"
+          insuranceType="{{Insurance}}" insuranceClass="{{InsuranceClass}}" firstAppointmentId="APPT:{{FirstApptId}}"
+          firstVisit="{{FirstVisit}}">
+    <Demographics firstName="{{FirstName}}" lastName="{{LastName}}" birthday="{{Birthday}}" address1="{{Address1}}"
+                  city="{{City}}" state="{{State}}" zip="{{ZipCode}}" homePhone="{{HomePhone}}" workPhone="{{WorkPhone}}"
+                  cellPhone="{{CellPhone}}" otherPhone1="{{OtherPhone1}}" otherPhone2="{{OtherPhone2}}"
+                  email="{{Email}}" noCorrespondence="{{NoCorrespondence}}"/>
+</Customer>

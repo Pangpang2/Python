@@ -1,0 +1,24 @@
+<udbf-3>
+  <service_information>
+    <initial>0</initial>
+    <version>2.1</version>
+    <portion_date>2019-07-25T18:58:10.000</portion_date>
+    <upgrade_disabled>1</upgrade_disabled>
+    <pms_vendor>Dentrix</pms_vendor>
+    <username>138027850</username>
+    <selective_upload_level>0</selective_upload_level>
+  </service_information>
+ <insert>
+<EMails>
+<record> <ID>7</ID><EMail>patien_four_email@gmail.com</EMail><OwnerName>owner_name_1</OwnerName></record>
+</EMails>
+</insert>
+<update>
+</update>
+<delete>
+  <PatientEMailLinks>
+<record><ID>1_7</ID><PatientID>1</PatientID><EMailID>7</EMailID><EMailType>1</EMailType></record>
+<record><ID>2_2</ID><PatientID>2</PatientID><EMailID>2</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+</delete>
+</udbf-3>

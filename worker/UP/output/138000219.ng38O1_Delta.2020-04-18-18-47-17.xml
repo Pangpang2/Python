@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><DemandForce dllVersion="{runHourlySetting.dll:;libeay32.dll:1.0.1.6;ssleay32.dll:1.0.1.6;ZipDLL.dll:1.73.4.1}" licenseKey="2EA526A1-0C9C-0A02-EC81-90FACBA5C177" scope="delta">
+<Business>
+<Extract extractDateTime="2020-04-18T18:47:17-08:00" managementSystemName="Complete Clinic Software" processingTime="15">
+ <DFLinkSettings>
+<GlobalSettings>
+<CurrentStep>SelectUploadTime</CurrentStep><InstallDir>C:\Program Files (x86)\Demandforce D3\DFLink</InstallDir><URL>https://secure.demandforce.com</URL><AntiVirusName>AVG</AntiVirusName><AntiVirusInfoURL>www.demandforce.com/d3one/av/avg</AntiVirusInfoURL><RESTURL>https://connect.demandforced3.com/v1.0</RESTURL><DeleteXML>True</DeleteXML><LastRunDFUpdate>2015-12-08T14:30:00-06:00</LastRunDFUpdate><Debug>False</Debug><DebugAPI>False</DebugAPI><LastRunHourlySetting>2017-12-08T14:30:19-06:00</LastRunHourlySetting></GlobalSettings><BusinessList>
+<Business>
+<OtherOptions1>*</OtherOptions1><OptionActiveOnly>TRUE</OptionActiveOnly><DataDir>DentrixSQL,localhost,6597</DataDir><OtherOptions2>G5</OtherOptions2><System>Dentrix</System><Industry>DENTAL</Industry><Username>contact@waterwaydental.com</Username><Password></Password><APINAME>d3dxsapi.dll</APINAME><Name>Office 1</Name><InitialUploadDate>6/4/2015</InitialUploadDate><LastAttemptedUploadDate>12/8/2015</LastAttemptedUploadDate><LastUploadDate>12/8/2015</LastUploadDate>
+<LicenseKey>2EA526A1-0C9C-0A02-EC81-90FACBA5C177</LicenseKey><OptionApptPostConfirmStatus>DFFIRM</OptionApptPostConfirmStatus><OptionApptConfirmStatus>FIRM,DFFIRM</OptionApptConfirmStatus><Last2WaySyncDate>2015-12-08T21:25:05Z</Last2WaySyncDate><APIUsername>cqlO9VEYCpfH0Imz5TRhTHK0tPOkMf==</APIUsername><APIPassword>PWoPCJgesOM=</APIPassword><InitialDFConfig>393</InitialDFConfig><TotalDFConfig>1976</TotalDFConfig><RunCount>5</RunCount><DFUpdateInterval>60</DFUpdateInterval><EndTimeFromTask>8:00 PM</EndTimeFromTask><IntervalFromTask>60</IntervalFromTask><StartTimeFromTask>8:24 AM</StartTimeFromTask><TwoWayInterval>60</TwoWayInterval><TwoWayConfirmation>
+<Enable>TRUE</Enable></TwoWayConfirmation><DailyMultiUploadTask>
+<Times>10:00 AM,2:00 PM,8:00 PM</Times><Type>INTERVAL</Type><Interval><Start/><End/><RepeatEvery/></Interval></DailyMultiUploadTask>
+</Business>
+</BusinessList>
+</DFLinkSettings>
+</Extract>
+
+<Customer id="333">
+<Demographics firstName="Test3" email="may.li@internetbrands.com" birthday="1989-10-15T00:00:00-08:00" city="COVINA"  gender="2" cellPhone="(626)-373-0613" lastName="LAU"  state="CA" zip="91622"/>
+<Animal birthday="2010-06-01T00:00:00-07:00" breed="Test33Update" coatColor="Black and Tan33-222" firstVisit="2010-06-26T00:00:00-07:00" id="31" lastVisit="2012-07-11T10:29:00-07:00" name="33" provider="33" providerName="Dr. Earl 33" sex="N" species="Canine" weight="24.6" weightUnits="lbs">
+	<Appointment id="330" provider="MayUpdated" providerName="John La" providerId="GAP" facility="DR CHAD 3" date="2020-04-29T18:47:17" duration="30" code="D2393" description="Test1 Description">	
+		<ApptCode code="D8670" description="testUpdateTest" externalCode="D8670" id="221:1"/>
+	</Appointment>
+	<Appointment id="430" provider="MayLe" providerName="John LaUpdated" providerId="GAP" facility="DR CHAD 3" date="2020-04-29T18:47:17" duration="30" code="D2393" description="Test1 Description">
+		<ApptCode code="D9670" description="testTestUpdated" externalCode="D8670" id="222:1"/>
+	</Appointment>
+	<Transaction category="Medical CareUpdated" charge="90.0" code="v2020" date="2019-03-01T14:02:00-07:00" id="999" provider="1" providerName="Peter,Gao"/>
+	<Recommendation code="1802" date="2016-03-20T00:00:00-07:00" description="Peter_2Update" id="23"/>
+	</Animal>
+
+</Customer>
+</Business>
+</DemandForce>

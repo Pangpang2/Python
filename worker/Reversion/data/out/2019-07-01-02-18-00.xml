@@ -1,0 +1,360 @@
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>2.1</version>
+        <portion_date>2019-06-27T13:17:55.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <db_version>15.1.0</db_version>
+        <username>ibexdtx01</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Staff>
+<record><ID>david</ID><FirstName>Dr.</FirstName><LastName>David</LastName><Speciality>Dentist</Speciality><Gender>0</Gender><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>david</Code></record>
+<record><ID>alex</ID><FirstName>Dr.</FirstName><LastName>Alex</LastName><Speciality>Dentist</Speciality><Gender>0</Gender><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>alex</Code></record>
+<record><ID>mason</ID><FirstName>Dr.</FirstName><LastName>Mason</LastName><Speciality>Dentist</Speciality><Gender>0</Gender><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>mason</Code></record>
+<record><ID>maggie</ID><FirstName>Nurse</FirstName><LastName>Maggie</LastName><Speciality>Dentist</Speciality><Gender>0</Gender><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>maggie</Code></record>
+</Staff>
+<Patients>
+<record><ID>0017</ID><FirstName>17Opt_out_T_A</FirstName><LastName>17EOpt_out_E_A</LastName><BirthDate>1989-01-18</BirthDate><Status>Active</Status><AddressID>0017</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0016</ID><FirstName>16Opt_out_T_A</FirstName><LastName>16EOpt_out_E_A</LastName><BirthDate>1989-01-17</BirthDate><Status>Active</Status><AddressID>0016</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0015</ID><FirstName>15Opt_in_T_A</FirstName><LastName>15EOpt_out_E_A</LastName><BirthDate>1989-01-16</BirthDate><Status>Active</Status><AddressID>0015</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0014</ID><FirstName>14Opt_in_T_A</FirstName><LastName>14EOpt_out_E_A</LastName><BirthDate>1989-01-15</BirthDate><Status>Active</Status><AddressID>0014</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0013</ID><FirstName>13Opt_in_T_A</FirstName><LastName>13EOpt_out_E_A</LastName><BirthDate>1989-01-14</BirthDate><Status>Active</Status><AddressID>0013</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0012</ID><FirstName>12Opt_in_T_A</FirstName><LastName>12EOpt_out_E_A</LastName><BirthDate>1989-01-13</BirthDate><Status>Active</Status><AddressID>0012</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0011</ID><FirstName>11Opt_in_T_A</FirstName><LastName>11EOpt_out_E_A</LastName><BirthDate>1989-01-12</BirthDate><Status>Active</Status><AddressID>0011</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0010</ID><FirstName>10Opt_out_T_A</FirstName><LastName>10Opt_in_E_A</LastName><BirthDate>1989-01-11</BirthDate><Status>Active</Status><AddressID>0010</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0020</ID><FirstName>20Opt_out_T_A</FirstName><LastName>20EOpt_out_E_A</LastName><BirthDate>1989-01-21</BirthDate><Status>Active</Status><AddressID>0020</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0019</ID><FirstName>19Opt_out_T_A</FirstName><LastName>19EOpt_out_E_A</LastName><BirthDate>1989-01-20</BirthDate><Status>Active</Status><AddressID>0019</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0018</ID><FirstName>18Opt_out_T_A</FirstName><LastName>18EOpt_out_E_A</LastName><BirthDate>1989-01-19</BirthDate><Status>Active</Status><AddressID>0018</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0021</ID><FirstName>dfRevenue1</FirstName><LastName>1</LastName><BirthDate>2018-01-30</BirthDate><Status>Active</Status><AddressID>0021</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0004</ID><FirstName>04Opt_in_T_A</FirstName><LastName>04Opt_in_E_A</LastName><BirthDate>1989-01-05</BirthDate><Status>Active</Status><AddressID>0004</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0005</ID><FirstName>05Opt_in_T_A</FirstName><LastName>05Opt_in_E_A</LastName><BirthDate>1989-01-06</BirthDate><Status>Active</Status><AddressID>0005</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0006</ID><FirstName>06Opt_out_T_A</FirstName><LastName>06Opt_in_E_A</LastName><BirthDate>1989-01-07</BirthDate><Status>Active</Status><AddressID>0006</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0007</ID><FirstName>07Opt_out_T_A</FirstName><LastName>07Opt_in_E_A</LastName><BirthDate>1989-01-08</BirthDate><Status>Active</Status><AddressID>0007</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0001</ID><FirstName>01Opt_in_T_A</FirstName><LastName>01Opt_in_E_A</LastName><BirthDate>1989-01-02</BirthDate><Status>Active</Status><AddressID>0001</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0002</ID><FirstName>02Opt_in_T_A</FirstName><LastName>02Opt_in_E_A</LastName><BirthDate>1989-01-03</BirthDate><Status>Active</Status><AddressID>0002</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0003</ID><FirstName>03Opt_in_T_A</FirstName><LastName>03Opt_in_E_A</LastName><BirthDate>1989-01-04</BirthDate><Status>Active</Status><AddressID>0003</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0008</ID><FirstName>08Opt_out_T_A</FirstName><LastName>08Opt_in_E_A</LastName><BirthDate>1989-01-09</BirthDate><Status>Active</Status><AddressID>0008</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0009</ID><FirstName>09Opt_out_T_A</FirstName><LastName>09Opt_in_E_A</LastName><BirthDate>1989-01-10</BirthDate><Status>Active</Status><AddressID>0009</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0022</ID><FirstName>dfRevenue2</FirstName><LastName>2</LastName><BirthDate>2018-01-31</BirthDate><Status>Active</Status><AddressID>0022</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+</Patients>
+<Addresses>
+<record><ID>0017</ID><State>Arkansas</State><City>Fort_Smith</City><Street>customer street no.0017</Street><ZipCode>0017</ZipCode><Country/></record>
+<record><ID>0016</ID><State>Arizona</State><City>Phoenix</City><Street>customer street no.0016</Street><ZipCode>0016</ZipCode><Country/></record>
+<record><ID>0015</ID><State>Alaska</State><City>Fairbanks</City><Street>customer street no.0015</Street><ZipCode>0015</ZipCode><Country/></record>
+<record><ID>0014</ID><State>Alabama</State><City>Phenix_City</City><Street>customer street no.0014</Street><ZipCode>0014</ZipCode><Country/></record>
+<record><ID>0013</ID><State>Connecticut</State><City>Norwich</City><Street>customer street no.0013</Street><ZipCode>0013</ZipCode><Country/></record>
+<record><ID>0012</ID><State>Colorado</State><City>Longmont</City><Street>customer street no.0012</Street><ZipCode>0012</ZipCode><Country/></record>
+<record><ID>0011</ID><State>California</State><City>San_Diego</City><Street>customer street no.0011</Street><ZipCode>0011</ZipCode><Country/></record>
+<record><ID>0010</ID><State>Arkansas</State><City>Fayetteville</City><Street>customer street no.0010</Street><ZipCode>0010</ZipCode><Country/></record>
+<record><ID>0020</ID><State>Connecticut</State><City>Waterbury</City><Street>customer street no.0020</Street><ZipCode>0020</ZipCode><Country/></record>
+<record><ID>0019</ID><State>Colorado</State><City>Aurora</City><Street>customer street no.0019</Street><ZipCode>0019</ZipCode><Country/></record>
+<record><ID>0018</ID><State>California</State><City>Sacramento</City><Street>customer street no.0018</Street><ZipCode>0018</ZipCode><Country/></record>
+<record><ID>0021</ID><State>Alabama</State><City>Dothan</City><Street>customer street no.0021</Street><ZipCode>0021</ZipCode><Country/></record>
+<record><ID>0004</ID><State>California</State><City>San_Francisco</City><Street>customer street no.0004</Street><ZipCode>0004</ZipCode><Country/></record>
+<record><ID>0005</ID><State>Colorado</State><City>Thornton</City><Street>customer street no.0005</Street><ZipCode>0005</ZipCode><Country/></record>
+<record><ID>0006</ID><State>Connecticut</State><City>Danbury</City><Street>customer street no.0006</Street><ZipCode>0006</ZipCode><Country/></record>
+<record><ID>0007</ID><State>Alabama</State><City>Decatur</City><Street>customer street no.0007</Street><ZipCode>0007</ZipCode><Country/></record>
+<record><ID>0001</ID><State>Alaska</State><City>Anchorage</City><Street>customer street no.0001</Street><ZipCode>0001</ZipCode><Country/></record>
+<record><ID>0002</ID><State>Arizona</State><City>South_Tucson</City><Street>customer street no.0002</Street><ZipCode>0002</ZipCode><Country/></record>
+<record><ID>0003</ID><State>Arkansas</State><City>Springdale</City><Street>customer street no.0003</Street><ZipCode>0003</ZipCode><Country/></record>
+<record><ID>0008</ID><State>Alaska</State><City>Bethel</City><Street>customer street no.0008</Street><ZipCode>0008</ZipCode><Country/></record>
+<record><ID>0009</ID><State>Arizona</State><City>Gilbert</City><Street>customer street no.0009</Street><ZipCode>0009</ZipCode><Country/></record>
+<record><ID>0022</ID><State>Alaska</State><City>Palmer</City><Street>customer street no.0022</Street><ZipCode>0022</ZipCode><Country/></record>
+</Addresses>
+<Offices>
+<record><ID>FAKE_OFFICE</ID><OfficeName>IBEX Office</OfficeName><AddressID>0022</AddressID><FederalTaxID/><NationalProviderID/><PhoneNumber/></record>
+</Offices>
+<EMails>
+<record><ID>17Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>17Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>17Opt_out_T_A 17EOpt_out_E_A</OwnerName></record>
+<record><ID>16Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>16Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>16Opt_out_T_A 16EOpt_out_E_A</OwnerName></record>
+<record><ID>15Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>15Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>15Opt_in_T_A 15EOpt_out_E_A</OwnerName></record>
+<record><ID>14Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>14Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>14Opt_in_T_A 14EOpt_out_E_A</OwnerName></record>
+<record><ID>13Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>13Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>13Opt_in_T_A 13EOpt_out_E_A</OwnerName></record>
+<record><ID>12Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>12Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>12Opt_in_T_A 12EOpt_out_E_A</OwnerName></record>
+<record><ID>11Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>11Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>11Opt_in_T_A 11EOpt_out_E_A</OwnerName></record>
+<record><ID>10Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>10Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>10Opt_out_T_A 10Opt_in_E_A</OwnerName></record>
+<record><ID>20Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>20Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>20Opt_out_T_A 20EOpt_out_E_A</OwnerName></record>
+<record><ID>19Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>19Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>19Opt_out_T_A 19EOpt_out_E_A</OwnerName></record>
+<record><ID>18Opt_out_E_A_QAA01Dental@d3one.com</ID><EMail>18Opt_out_E_A_QAA01Dental@d3one.com</EMail><OwnerName>18Opt_out_T_A 18EOpt_out_E_A</OwnerName></record>
+<record><ID>QAA01.Dental.o+dfRevenue1@d3one.com</ID><EMail>QAA01.Dental.o+dfRevenue1@d3one.com</EMail><OwnerName>dfRevenue1 1</OwnerName></record>
+<record><ID>04Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>04Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>04Opt_in_T_A 04Opt_in_E_A</OwnerName></record>
+<record><ID>05Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>05Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>05Opt_in_T_A 05Opt_in_E_A</OwnerName></record>
+<record><ID>06Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>06Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>06Opt_out_T_A 06Opt_in_E_A</OwnerName></record>
+<record><ID>07Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>07Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>07Opt_out_T_A 07Opt_in_E_A</OwnerName></record>
+<record><ID>01Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>01Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>01Opt_in_T_A 01Opt_in_E_A</OwnerName></record>
+<record><ID>02Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>02Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>02Opt_in_T_A 02Opt_in_E_A</OwnerName></record>
+<record><ID>03Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>03Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>03Opt_in_T_A 03Opt_in_E_A</OwnerName></record>
+<record><ID>08Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>08Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>08Opt_out_T_A 08Opt_in_E_A</OwnerName></record>
+<record><ID>09Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>09Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>09Opt_out_T_A 09Opt_in_E_A</OwnerName></record>
+<record><ID>QAA01.Dental.o+dfRevenue2@d3one.com</ID><EMail>QAA01.Dental.o+dfRevenue2@d3one.com</EMail><OwnerName>dfRevenue2 2</OwnerName></record>
+</EMails>
+<PatientEMailLinks>
+<record><ID>0017</ID><PatientID>0017</PatientID><EMailID>17Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0016</ID><PatientID>0016</PatientID><EMailID>16Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0015</ID><PatientID>0015</PatientID><EMailID>15Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0014</ID><PatientID>0014</PatientID><EMailID>14Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0013</ID><PatientID>0013</PatientID><EMailID>13Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0012</ID><PatientID>0012</PatientID><EMailID>12Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0011</ID><PatientID>0011</PatientID><EMailID>11Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0010</ID><PatientID>0010</PatientID><EMailID>10Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0020</ID><PatientID>0020</PatientID><EMailID>20Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0019</ID><PatientID>0019</PatientID><EMailID>19Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0018</ID><PatientID>0018</PatientID><EMailID>18Opt_out_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0021</ID><PatientID>0021</PatientID><EMailID>QAA01.Dental.o+dfRevenue1@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0004</ID><PatientID>0004</PatientID><EMailID>04Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0005</ID><PatientID>0005</PatientID><EMailID>05Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0006</ID><PatientID>0006</PatientID><EMailID>06Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0007</ID><PatientID>0007</PatientID><EMailID>07Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0001</ID><PatientID>0001</PatientID><EMailID>01Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0002</ID><PatientID>0002</PatientID><EMailID>02Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0003</ID><PatientID>0003</PatientID><EMailID>03Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0008</ID><PatientID>0008</PatientID><EMailID>08Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0009</ID><PatientID>0009</PatientID><EMailID>09Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0022</ID><PatientID>0022</PatientID><EMailID>QAA01.Dental.o+dfRevenue2@d3one.com</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+<Appointments>
+</Appointments>
+<Accounts>
+<record><ID>0017_0017</ID><PatientResponsibleLinkID>0017_0017</PatientResponsibleLinkID><InsuranceContractID>Cash, Master, Visa</InsuranceContractID><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0016_0016</ID><PatientResponsibleLinkID>0016_0016</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0015_0015</ID><PatientResponsibleLinkID>0015_0015</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0014_0014</ID><PatientResponsibleLinkID>0014_0014</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0013_0013</ID><PatientResponsibleLinkID>0013_0013</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0012_0012</ID><PatientResponsibleLinkID>0012_0012</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0011_0011</ID><PatientResponsibleLinkID>0011_0011</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0010_0010</ID><PatientResponsibleLinkID>0010_0010</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0020_0020</ID><PatientResponsibleLinkID>0020_0020</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0019_0019</ID><PatientResponsibleLinkID>0019_0019</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0018_0018</ID><PatientResponsibleLinkID>0018_0018</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0021_0021</ID><PatientResponsibleLinkID>0021_0021</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0004_0004</ID><PatientResponsibleLinkID>0004_0004</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0005_0005</ID><PatientResponsibleLinkID>0005_0005</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0006_0006</ID><PatientResponsibleLinkID>0006_0006</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0007_0007</ID><PatientResponsibleLinkID>0007_0007</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0001_0001</ID><PatientResponsibleLinkID>0001_0001</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0002_0002</ID><PatientResponsibleLinkID>0002_0002</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0003_0003</ID><PatientResponsibleLinkID>0003_0003</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0008_0008</ID><PatientResponsibleLinkID>0008_0008</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0009_0009</ID><PatientResponsibleLinkID>0009_0009</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0022_0022</ID><PatientResponsibleLinkID>0022_0022</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+</Accounts>
+<PatientResponsibleLinks>
+<record><ID>0017_0017</ID><PatientID>0017</PatientID><ResponsibleID>0017</ResponsibleID></record>
+<record><ID>0016_0016</ID><PatientID>0016</PatientID><ResponsibleID>0016</ResponsibleID></record>
+<record><ID>0015_0015</ID><PatientID>0015</PatientID><ResponsibleID>0015</ResponsibleID></record>
+<record><ID>0014_0014</ID><PatientID>0014</PatientID><ResponsibleID>0014</ResponsibleID></record>
+<record><ID>0013_0013</ID><PatientID>0013</PatientID><ResponsibleID>0013</ResponsibleID></record>
+<record><ID>0012_0012</ID><PatientID>0012</PatientID><ResponsibleID>0012</ResponsibleID></record>
+<record><ID>0011_0011</ID><PatientID>0011</PatientID><ResponsibleID>0011</ResponsibleID></record>
+<record><ID>0010_0010</ID><PatientID>0010</PatientID><ResponsibleID>0010</ResponsibleID></record>
+<record><ID>0020_0020</ID><PatientID>0020</PatientID><ResponsibleID>0020</ResponsibleID></record>
+<record><ID>0019_0019</ID><PatientID>0019</PatientID><ResponsibleID>0019</ResponsibleID></record>
+<record><ID>0018_0018</ID><PatientID>0018</PatientID><ResponsibleID>0018</ResponsibleID></record>
+<record><ID>0021_0021</ID><PatientID>0021</PatientID><ResponsibleID>0021</ResponsibleID></record>
+<record><ID>0004_0004</ID><PatientID>0004</PatientID><ResponsibleID>0004</ResponsibleID></record>
+<record><ID>0005_0005</ID><PatientID>0005</PatientID><ResponsibleID>0005</ResponsibleID></record>
+<record><ID>0006_0006</ID><PatientID>0006</PatientID><ResponsibleID>0006</ResponsibleID></record>
+<record><ID>0007_0007</ID><PatientID>0007</PatientID><ResponsibleID>0007</ResponsibleID></record>
+<record><ID>0001_0001</ID><PatientID>0001</PatientID><ResponsibleID>0001</ResponsibleID></record>
+<record><ID>0002_0002</ID><PatientID>0002</PatientID><ResponsibleID>0002</ResponsibleID></record>
+<record><ID>0003_0003</ID><PatientID>0003</PatientID><ResponsibleID>0003</ResponsibleID></record>
+<record><ID>0008_0008</ID><PatientID>0008</PatientID><ResponsibleID>0008</ResponsibleID></record>
+<record><ID>0009_0009</ID><PatientID>0009</PatientID><ResponsibleID>0009</ResponsibleID></record>
+<record><ID>0022_0022</ID><PatientID>0022</PatientID><ResponsibleID>0022</ResponsibleID></record>
+</PatientResponsibleLinks>
+<Responsibles>
+<record><ID>0017</ID><FirstName>17Opt_out_T_A</FirstName><LastName>17EOpt_out_E_A</LastName><BirthDate>1989-01-18</BirthDate><AddressID/></record>
+<record><ID>0016</ID><FirstName>16Opt_out_T_A</FirstName><LastName>16EOpt_out_E_A</LastName><BirthDate>1989-01-17</BirthDate><AddressID/></record>
+<record><ID>0015</ID><FirstName>15Opt_in_T_A</FirstName><LastName>15EOpt_out_E_A</LastName><BirthDate>1989-01-16</BirthDate><AddressID/></record>
+<record><ID>0014</ID><FirstName>14Opt_in_T_A</FirstName><LastName>14EOpt_out_E_A</LastName><BirthDate>1989-01-15</BirthDate><AddressID/></record>
+<record><ID>0013</ID><FirstName>13Opt_in_T_A</FirstName><LastName>13EOpt_out_E_A</LastName><BirthDate>1989-01-14</BirthDate><AddressID/></record>
+<record><ID>0012</ID><FirstName>12Opt_in_T_A</FirstName><LastName>12EOpt_out_E_A</LastName><BirthDate>1989-01-13</BirthDate><AddressID/></record>
+<record><ID>0011</ID><FirstName>11Opt_in_T_A</FirstName><LastName>11EOpt_out_E_A</LastName><BirthDate>1989-01-12</BirthDate><AddressID/></record>
+<record><ID>0010</ID><FirstName>10Opt_out_T_A</FirstName><LastName>10Opt_in_E_A</LastName><BirthDate>1989-01-11</BirthDate><AddressID/></record>
+<record><ID>0020</ID><FirstName>20Opt_out_T_A</FirstName><LastName>20EOpt_out_E_A</LastName><BirthDate>1989-01-21</BirthDate><AddressID/></record>
+<record><ID>0019</ID><FirstName>19Opt_out_T_A</FirstName><LastName>19EOpt_out_E_A</LastName><BirthDate>1989-01-20</BirthDate><AddressID/></record>
+<record><ID>0018</ID><FirstName>18Opt_out_T_A</FirstName><LastName>18EOpt_out_E_A</LastName><BirthDate>1989-01-19</BirthDate><AddressID/></record>
+<record><ID>0021</ID><FirstName>dfRevenue1</FirstName><LastName>1</LastName><BirthDate>2018-01-30</BirthDate><AddressID/></record>
+<record><ID>0004</ID><FirstName>04Opt_in_T_A</FirstName><LastName>04Opt_in_E_A</LastName><BirthDate>1989-01-05</BirthDate><AddressID/></record>
+<record><ID>0005</ID><FirstName>05Opt_in_T_A</FirstName><LastName>05Opt_in_E_A</LastName><BirthDate>1989-01-06</BirthDate><AddressID/></record>
+<record><ID>0006</ID><FirstName>06Opt_out_T_A</FirstName><LastName>06Opt_in_E_A</LastName><BirthDate>1989-01-07</BirthDate><AddressID/></record>
+<record><ID>0007</ID><FirstName>07Opt_out_T_A</FirstName><LastName>07Opt_in_E_A</LastName><BirthDate>1989-01-08</BirthDate><AddressID/></record>
+<record><ID>0001</ID><FirstName>01Opt_in_T_A</FirstName><LastName>01Opt_in_E_A</LastName><BirthDate>1989-01-02</BirthDate><AddressID/></record>
+<record><ID>0002</ID><FirstName>02Opt_in_T_A</FirstName><LastName>02Opt_in_E_A</LastName><BirthDate>1989-01-03</BirthDate><AddressID/></record>
+<record><ID>0003</ID><FirstName>03Opt_in_T_A</FirstName><LastName>03Opt_in_E_A</LastName><BirthDate>1989-01-04</BirthDate><AddressID/></record>
+<record><ID>0008</ID><FirstName>08Opt_out_T_A</FirstName><LastName>08Opt_in_E_A</LastName><BirthDate>1989-01-09</BirthDate><AddressID/></record>
+<record><ID>0009</ID><FirstName>09Opt_out_T_A</FirstName><LastName>09Opt_in_E_A</LastName><BirthDate>1989-01-10</BirthDate><AddressID/></record>
+<record><ID>0022</ID><FirstName>dfRevenue2</FirstName><LastName>2</LastName><BirthDate>2018-01-31</BirthDate><AddressID/></record>
+</Responsibles>
+<Procedures>
+<record><ID>002120180219001</ID><ProcedureCode>DXR</ProcedureCode><Description>Digital X-Rays</Description><Duration/><Amount/></record>
+<record><ID>002120180219000</ID><ProcedureCode>L</ProcedureCode><Description>Lumineers</Description><Duration/><Amount/></record>
+<record><ID>002120180219003</ID><ProcedureCode>CNC</ProcedureCode><Description>Check-up and Cleaning</Description><Duration/><Amount/></record>
+<record><ID>002120180219002</ID><ProcedureCode>JJP</ProcedureCode><Description>Jaw Joint Pain (TMJ) test</Description><Duration/><Amount/></record>
+<record><ID>002120180219004</ID><ProcedureCode>BT</ProcedureCode><Description>Broken Tooth</Description><Duration/><Amount/></record>
+<record><ID>002220180220000</ID><ProcedureCode>TA</ProcedureCode><Description>Toothache</Description><Duration/><Amount/></record>
+<record><ID>002220180220001</ID><ProcedureCode>L</ProcedureCode><Description>Lumineers</Description><Duration/><Amount/></record>
+<record><ID>002220180220002</ID><ProcedureCode>DXR</ProcedureCode><Description>Digital X-Rays</Description><Duration/><Amount/></record>
+<record><ID>002220180220003</ID><ProcedureCode>DXR</ProcedureCode><Description>Digital X-Rays</Description><Duration/><Amount/></record>
+<record><ID>002220180220004</ID><ProcedureCode>TA</ProcedureCode><Description>Toothache</Description><Duration/><Amount/></record>
+</Procedures>
+<AppointmentProcedureLinks>
+</AppointmentProcedureLinks>
+<InsuranceContracts>
+<record><ID>Cash, Master, Visa</ID><Carrier>Cash, Master, Visa</Carrier><IID/><InsurancePlan>Cash, Master, Visa</InsurancePlan><InsurancePlanType>0</InsurancePlanType><Rank>2</Rank><DentalBenefit/><DentalUsed/><OrthoBenefit/><OrthoUsed/><BenefitMonth/><EmployerID/></record>
+</InsuranceContracts>
+<Alerts>
+<record><ID>806770</ID><Description>Thyroid Disease</Description></record>
+<record><ID>107124</ID><Description>Irregular Heartbeat</Description></record>
+<record><ID>332202</ID><Description>Fainting Spells/Dizziness</Description></record>
+<record><ID>759139</ID><Description>Allergic to Penicillin</Description></record>
+<record><ID>26081</ID><Description>Blood Disease</Description></record>
+<record><ID>497289</ID><Description>Mitral Valve Prolapse</Description></record>
+<record><ID>961051</ID><Description>Heart Trouble/Disease</Description></record>
+<record><ID>293402</ID><Description>Thyroid Disease</Description></record>
+<record><ID>8001</ID><Description>Blood Transfusion</Description></record>
+<record><ID>709525</ID><Description>Heart Attack/Failure</Description></record>
+<record><ID>932285</ID><Description>Mitral Valve Prolapse</Description></record>
+<record><ID>254275</ID><Description>Blood Transfusion</Description></record>
+<record><ID>374494</ID><Description>Ulcers</Description></record>
+<record><ID>760874</ID><Description>Kidney Problems</Description></record>
+<record><ID>568800</ID><Description>Arthritis/Gout</Description></record>
+<record><ID>872037</ID><Description>Allergic to Penicillin</Description></record>
+<record><ID>309474</ID><Description>Thyroid Disease</Description></record>
+<record><ID>14309</ID><Description>Chest Pains</Description></record>
+<record><ID>934147</ID><Description>Blood Transfusion</Description></record>
+<record><ID>150185</ID><Description>Heart Trouble/Disease</Description></record>
+<record><ID>267398</ID><Description>Fainting Spells/Dizziness</Description></record>
+<record><ID>594785</ID><Description>Pain in Jaw Joints</Description></record>
+<record><ID>499666</ID><Description>Shingles</Description></record>
+<record><ID>270828</ID><Description>Heart Attack/Failure</Description></record>
+<record><ID>723975</ID><Description>Arthritis/Gout</Description></record>
+<record><ID>623653</ID><Description>Heart Pace Maker</Description></record>
+<record><ID>100641</ID><Description>Kidney Problems</Description></record>
+<record><ID>263498</ID><Description>Allergic to Penicillin</Description></record>
+<record><ID>330984</ID><Description>Shingles</Description></record>
+<record><ID>223033</ID><Description>Allergic to Penicillin</Description></record>
+<record><ID>314684</ID><Description>Sinus Trouble</Description></record>
+<record><ID>347956</ID><Description>Heart Trouble/Disease</Description></record>
+<record><ID>643544</ID><Description>Heart Pace Maker</Description></record>
+<record><ID>945698</ID><Description>Pain in Jaw Joints</Description></record>
+<record><ID>313633</ID><Description>High Blood Pressure</Description></record>
+<record><ID>214605</ID><Description>Arthritis/Gout</Description></record>
+<record><ID>871578</ID><Description>Chest Pains</Description></record>
+<record><ID>99573</ID><Description>Pain in Jaw Joints</Description></record>
+<record><ID>856599</ID><Description>Kidney Problems</Description></record>
+<record><ID>606666</ID><Description>Strok</Description></record>
+<record><ID>949540</ID><Description>High Blood Pressure</Description></record>
+<record><ID>605139</ID><Description>Blood Disease</Description></record>
+<record><ID>453725</ID><Description>Thyroid Disease</Description></record>
+<record><ID>106548</ID><Description>Blood Disease</Description></record>
+<record><ID>420945</ID><Description>Arthritis/Gout</Description></record>
+<record><ID>868137</ID><Description>Fainting Spells/Dizziness</Description></record>
+<record><ID>264092</ID><Description>Sinus Trouble</Description></record>
+<record><ID>470192</ID><Description>Allergic to Penicillin</Description></record>
+<record><ID>959503</ID><Description>Cold Sores/Fever Blisters</Description></record>
+<record><ID>501274</ID><Description>Blood Disease</Description></record>
+<record><ID>533707</ID><Description>Sinus Trouble</Description></record>
+<record><ID>694217</ID><Description>Blood Transfusion</Description></record>
+<record><ID>964649</ID><Description>Alzheimer`s Disease</Description></record>
+<record><ID>105491</ID><Description>Allergic to Penicillin</Description></record>
+<record><ID>626192</ID><Description>Shingles</Description></record>
+<record><ID>627033</ID><Description>High Blood Pressure</Description></record>
+<record><ID>533587</ID><Description>Fainting Spells/Dizziness</Description></record>
+<record><ID>469802</ID><Description>Heart Attack/Failure</Description></record>
+<record><ID>112917</ID><Description>Blood Disease</Description></record>
+<record><ID>628732</ID><Description>Arthritis/Gout</Description></record>
+<record><ID>755907</ID><Description>Alzheimer`s Disease</Description></record>
+<record><ID>913984</ID><Description>Alzheimer`s Disease</Description></record>
+<record><ID>769849</ID><Description>Thyroid Disease</Description></record>
+<record><ID>618296</ID><Description>Irregular Heartbeat</Description></record>
+<record><ID>78874</ID><Description>Shingles</Description></record>
+<record><ID>937203</ID><Description>Heart Trouble/Disease</Description></record>
+</Alerts>
+<PatientAlertLinks>
+<record><ID>0017_806770</ID><PatientID>0017</PatientID><AlertID>806770</AlertID></record>
+<record><ID>0017_107124</ID><PatientID>0017</PatientID><AlertID>107124</AlertID></record>
+<record><ID>0017_332202</ID><PatientID>0017</PatientID><AlertID>332202</AlertID></record>
+<record><ID>0016_759139</ID><PatientID>0016</PatientID><AlertID>759139</AlertID></record>
+<record><ID>0016_26081</ID><PatientID>0016</PatientID><AlertID>26081</AlertID></record>
+<record><ID>0016_497289</ID><PatientID>0016</PatientID><AlertID>497289</AlertID></record>
+<record><ID>0015_961051</ID><PatientID>0015</PatientID><AlertID>961051</AlertID></record>
+<record><ID>0015_293402</ID><PatientID>0015</PatientID><AlertID>293402</AlertID></record>
+<record><ID>0015_8001</ID><PatientID>0015</PatientID><AlertID>8001</AlertID></record>
+<record><ID>0014_709525</ID><PatientID>0014</PatientID><AlertID>709525</AlertID></record>
+<record><ID>0014_932285</ID><PatientID>0014</PatientID><AlertID>932285</AlertID></record>
+<record><ID>0014_254275</ID><PatientID>0014</PatientID><AlertID>254275</AlertID></record>
+<record><ID>0013_374494</ID><PatientID>0013</PatientID><AlertID>374494</AlertID></record>
+<record><ID>0013_760874</ID><PatientID>0013</PatientID><AlertID>760874</AlertID></record>
+<record><ID>0013_568800</ID><PatientID>0013</PatientID><AlertID>568800</AlertID></record>
+<record><ID>0012_872037</ID><PatientID>0012</PatientID><AlertID>872037</AlertID></record>
+<record><ID>0012_309474</ID><PatientID>0012</PatientID><AlertID>309474</AlertID></record>
+<record><ID>0012_14309</ID><PatientID>0012</PatientID><AlertID>14309</AlertID></record>
+<record><ID>0011_934147</ID><PatientID>0011</PatientID><AlertID>934147</AlertID></record>
+<record><ID>0011_150185</ID><PatientID>0011</PatientID><AlertID>150185</AlertID></record>
+<record><ID>0011_267398</ID><PatientID>0011</PatientID><AlertID>267398</AlertID></record>
+<record><ID>0010_594785</ID><PatientID>0010</PatientID><AlertID>594785</AlertID></record>
+<record><ID>0010_499666</ID><PatientID>0010</PatientID><AlertID>499666</AlertID></record>
+<record><ID>0010_270828</ID><PatientID>0010</PatientID><AlertID>270828</AlertID></record>
+<record><ID>0020_723975</ID><PatientID>0020</PatientID><AlertID>723975</AlertID></record>
+<record><ID>0020_623653</ID><PatientID>0020</PatientID><AlertID>623653</AlertID></record>
+<record><ID>0020_100641</ID><PatientID>0020</PatientID><AlertID>100641</AlertID></record>
+<record><ID>0019_263498</ID><PatientID>0019</PatientID><AlertID>263498</AlertID></record>
+<record><ID>0019_330984</ID><PatientID>0019</PatientID><AlertID>330984</AlertID></record>
+<record><ID>0019_223033</ID><PatientID>0019</PatientID><AlertID>223033</AlertID></record>
+<record><ID>0018_314684</ID><PatientID>0018</PatientID><AlertID>314684</AlertID></record>
+<record><ID>0018_347956</ID><PatientID>0018</PatientID><AlertID>347956</AlertID></record>
+<record><ID>0018_643544</ID><PatientID>0018</PatientID><AlertID>643544</AlertID></record>
+<record><ID>0021_945698</ID><PatientID>0021</PatientID><AlertID>945698</AlertID></record>
+<record><ID>0021_313633</ID><PatientID>0021</PatientID><AlertID>313633</AlertID></record>
+<record><ID>0021_214605</ID><PatientID>0021</PatientID><AlertID>214605</AlertID></record>
+<record><ID>0004_871578</ID><PatientID>0004</PatientID><AlertID>871578</AlertID></record>
+<record><ID>0004_99573</ID><PatientID>0004</PatientID><AlertID>99573</AlertID></record>
+<record><ID>0004_856599</ID><PatientID>0004</PatientID><AlertID>856599</AlertID></record>
+<record><ID>0005_606666</ID><PatientID>0005</PatientID><AlertID>606666</AlertID></record>
+<record><ID>0005_949540</ID><PatientID>0005</PatientID><AlertID>949540</AlertID></record>
+<record><ID>0005_605139</ID><PatientID>0005</PatientID><AlertID>605139</AlertID></record>
+<record><ID>0006_453725</ID><PatientID>0006</PatientID><AlertID>453725</AlertID></record>
+<record><ID>0006_106548</ID><PatientID>0006</PatientID><AlertID>106548</AlertID></record>
+<record><ID>0006_420945</ID><PatientID>0006</PatientID><AlertID>420945</AlertID></record>
+<record><ID>0007_868137</ID><PatientID>0007</PatientID><AlertID>868137</AlertID></record>
+<record><ID>0007_264092</ID><PatientID>0007</PatientID><AlertID>264092</AlertID></record>
+<record><ID>0007_470192</ID><PatientID>0007</PatientID><AlertID>470192</AlertID></record>
+<record><ID>0001_959503</ID><PatientID>0001</PatientID><AlertID>959503</AlertID></record>
+<record><ID>0001_501274</ID><PatientID>0001</PatientID><AlertID>501274</AlertID></record>
+<record><ID>0001_533707</ID><PatientID>0001</PatientID><AlertID>533707</AlertID></record>
+<record><ID>0002_694217</ID><PatientID>0002</PatientID><AlertID>694217</AlertID></record>
+<record><ID>0002_964649</ID><PatientID>0002</PatientID><AlertID>964649</AlertID></record>
+<record><ID>0002_105491</ID><PatientID>0002</PatientID><AlertID>105491</AlertID></record>
+<record><ID>0003_626192</ID><PatientID>0003</PatientID><AlertID>626192</AlertID></record>
+<record><ID>0003_627033</ID><PatientID>0003</PatientID><AlertID>627033</AlertID></record>
+<record><ID>0003_533587</ID><PatientID>0003</PatientID><AlertID>533587</AlertID></record>
+<record><ID>0008_469802</ID><PatientID>0008</PatientID><AlertID>469802</AlertID></record>
+<record><ID>0008_112917</ID><PatientID>0008</PatientID><AlertID>112917</AlertID></record>
+<record><ID>0008_628732</ID><PatientID>0008</PatientID><AlertID>628732</AlertID></record>
+<record><ID>0009_755907</ID><PatientID>0009</PatientID><AlertID>755907</AlertID></record>
+<record><ID>0009_913984</ID><PatientID>0009</PatientID><AlertID>913984</AlertID></record>
+<record><ID>0009_769849</ID><PatientID>0009</PatientID><AlertID>769849</AlertID></record>
+<record><ID>0022_618296</ID><PatientID>0022</PatientID><AlertID>618296</AlertID></record>
+<record><ID>0022_78874</ID><PatientID>0022</PatientID><AlertID>78874</AlertID></record>
+<record><ID>0022_937203</ID><PatientID>0022</PatientID><AlertID>937203</AlertID></record>
+</PatientAlertLinks>
+<Ledgers>
+<record><ID>002120180219001</ID><AccountID>0021_0021</AccountID><LedgerDateTime>2018-02-19T02:38:46.000</LedgerDateTime><Amount>150</Amount><Description>Digital X-Rays</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID>david</StaffID><Category>Diagnostic</Category><SubCategory/><ProcedureID>002120180219001</ProcedureID></record>
+<record><ID>002120180219000</ID><AccountID>0021_0021</AccountID><LedgerDateTime>2018-02-19T02:38:46.000</LedgerDateTime><Amount>120</Amount><Description>Lumineers</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID>alex</StaffID><Category>Diagnostic</Category><SubCategory/><ProcedureID>002120180219000</ProcedureID></record>
+<record><ID>002120180219003</ID><AccountID>0021_0021</AccountID><LedgerDateTime>2018-02-19T02:38:46.000</LedgerDateTime><Amount>30</Amount><Description>Check-up and Cleaning</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID>mason</StaffID><Category>Diagnostic</Category><SubCategory/><ProcedureID>002120180219003</ProcedureID></record>
+<record><ID>002120180219002</ID><AccountID>0021_0021</AccountID><LedgerDateTime>2018-02-19T02:38:46.000</LedgerDateTime><Amount>80</Amount><Description>Jaw Joint Pain (TMJ) test</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002120180219002</ProcedureID></record>
+<record><ID>002120180219004</ID><AccountID>0021_0021</AccountID><LedgerDateTime>2018-02-19T02:38:46.000</LedgerDateTime><Amount>200</Amount><Description>Broken Tooth</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID>maggie</StaffID><Category>Diagnostic</Category><SubCategory/><ProcedureID>002120180219004</ProcedureID></record>
+<record><ID>002220180220000</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>90</Amount><Description>Toothache</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220000</ProcedureID></record>
+<record><ID>002220180220001</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>120</Amount><Description>Lumineers</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220001</ProcedureID></record>
+<record><ID>002220180220002</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>150</Amount><Description>Digital X-Rays</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220002</ProcedureID></record>
+<record><ID>002220180220003</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>150</Amount><Description>Digital X-Rays</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220003</ProcedureID></record>
+<record><ID>002220180220004</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>90</Amount><Description>Toothache</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220004</ProcedureID></record>
+</Ledgers>
+</insert>
+<update/>
+<delete/>
+</udbf-3>

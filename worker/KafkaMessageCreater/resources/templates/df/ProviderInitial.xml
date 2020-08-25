@@ -1,0 +1,2 @@
+<Provider id="{{BusinessProviderID}}" firstName="{{FirstName}}" lastName="{{LastName}}" bookingName="{{BookingName}}"
+          code="{{CODE}}" active="{{Active}}" type="{{TYPE}}" />

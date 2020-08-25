@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DemandForce licenseKey="459C4D61-DB55-50CA-206A-91615897E45D" scope="full" syncClient="IBExtractor">
+<Business>
+<Extract managementSystemName="Dentrix" extractDateTime="2019-08-09T00:14:55">
+<Param/>
+</Extract>
+<Firmographics/>
+<DFLinkSettings/>
+<Customer id="FAKE_PATIENT" firstVisit="2019-07-12T00:00:00" lastVisit="2019-08-02T00:00:00" lastMaintenanceDate="2019-08-02T00:00:00">
+<Demographics firstName="FakeFN_Kxigh" lastName="FakeLN_1RCMs" gender="2" birthday="1989-08-12T00:00:00" noCorrespondence="false"/>
+</Customer>
+<Facility facility="OP01">
+<CalendarBlock id="FAKE_CALENDAR_BLOCK" scheduledDate="2019-07-12T00:14:55" title="Holiday" duration="480" facility="OP01" notes="Office Closure"/>
+</Facility>
+</Business>
+</DemandForce>

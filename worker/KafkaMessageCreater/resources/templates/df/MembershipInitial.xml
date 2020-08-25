@@ -1,0 +1,1 @@
+<Membership id="{{ManagementSystemID}}" member="{{Boolean1}}" startDate="{{Date1}}" expirationDate="{{Date2}}" memberType="{{String1}}"/>

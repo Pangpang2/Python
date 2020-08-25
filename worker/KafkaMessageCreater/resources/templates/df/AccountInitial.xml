@@ -1,0 +1,1 @@
+<Account id="{{ManagementSystemID}}" overdueBalance="{{Integer1}}" openBalance="{{Integer2}}" totalRevenue="{{Integer3}}" />

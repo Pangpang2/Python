@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DemandForce componentUrl="https://secure.demandforce.com/dflinkqa/setup/"  dFAPI="d3prdapi.dll" dFAPIVersion="3.0.3.0" dFLinkVersion="3.7.73" dFUpdateVersion="3.0.5.0" dataLocation="TheEyeShopForQA" licenseKey="${license_key}" scope="${scope}" systemName="D3-PRACTICEDIR" systemOS="Win00" systemUser="demandforce" systemIPAddress="194.168.1.100" antiVirusName="e2e1" dotNETFrameworkVersion="4.5" macAddress="10.10.10.99" syncClient="DF1.5">
+<Business>
+<Extract extractDateTime="${extract_datetime}" managementSystemName="${system}" managementSystemVersion="4.0" processingTime="60">
+  <DFLinkSettings>
+      <BusinessList>
+          <Business>
+              <DailyMultiUploadTask>
+                  <Times>10:00 AM,3:00 PM,8:00 PM</Times>
+              </DailyMultiUploadTask>
+              <OptionActiveOnly>FALSE</OptionActiveOnly>
+              <OtherOptions1>1,2</OtherOptions1>
+              <OptionLocationID>1</OptionLocationID>
+              <DataDir>TheEyeShopForQA</DataDir>
+              <OtherOptions2>4.0</OtherOptions2>
+              <System>Practice Director</System>
+              <Industry>OPTOMETRY</Industry>
+              <Username>QAA01_Dental_o@ibpxl.com</Username>
+              <Password/>
+              <APINAME>d3prdapi.dll</APINAME>
+              <Name>Office 1</Name>
+              <InitialUploadDate>1/1/2000</InitialUploadDate>
+              <LastAttemptedUploadDate/>
+              <LastUploadDate/>
+              <LicenseKey>${license_key}</LicenseKey>
+            <StartTimeFromTask>7:05 PM</StartTimeFromTask>
+            <EndTimeFromTask>18:24 PM</EndTimeFromTask>
+            <TwoWayInterval>5</TwoWayInterval>
+            <DFUpdateInterval>30</DFUpdateInterval>
+            <IntervalFromTask>30</IntervalFromTask>
+            
+          <OptionToday>04/26/2011</OptionToday></Business>
+      </BusinessList>
+      <GlobalSettings>
+          <CurrentStep>SelectUploadTime</CurrentStep>
+          <InstallDir>C:\TestRoot</InstallDir>
+          <URL>https://sandbox.demandforced3.com</URL>
+          <RESTURL>https://connect.demandforced3.com</RESTURL>
+        <LastRunDFUpdate>2015-11-08T21:10:32-08:00</LastRunDFUpdate>
+        <LastRunHourlySetting>2016-08-09T17:00:26-07:00</LastRunHourlySetting>
+      <DeleteXML>False</DeleteXML></GlobalSettings>
+  </DFLinkSettings>
+</Extract>
+<Facility facility="1">
+    <CalendarBlock duration="999" facility="1" id="111" scheduledDate="${calendar_block_date}" title="Holiday"/>
+</Facility>
+<Provider id="4" firstName="May" middleName="Lee" lastName="Ritsema OD" code="4" identificationNumber="1497731996" active="1" type="Corporation"  />
+    <Customer   id="156" partial="true">
+       <Demographics address1="504 N Test DRIVE" workPhone="4242366108" birthday="1989-10-15T00:00:00-08:00" city="COVINA"  firstName="May" gender="2" lastName="LAU"  state="CA" zip="91622"/>
+       <Appointment id="20003"  recordType="delete">
+       </Appointment>
+       <Appointment id="20004"  provider="May" type="General" providerName="John La" providerId="GAP" facility="DR1 CHAD 2" date="${appt_date}" duration="30" code="D2393|D9230" description="Test1 Description">
+            <ApptCode id="D2394" recordType="delete"/>
+        </Appointment>
+    </Customer>
+</Business>
+</DemandForce>

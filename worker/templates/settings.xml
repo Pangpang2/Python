@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<settings xmlns="http://settings.extractor.sesamecommunications.com">
+    <module  name="SesameConfiguration">
+        <property name="IsSuccessAttempt" value="-1"/>
+        <property name="Login" value="uploadtest"/>
+        <property name="Password" value="code:000000130000003a000000150000003b00000027000000260000000d000000600000001900000019000000210000003000000061"/>
+        <property name="MigrationAttemptNumber" value="10"/>
+        <property name="CheckCommandSleepTime" value="2"/>
+        <property name="DaysOfWeekMask" value="127"/>
+        <property name="TerminateFlag" value="-1"/>
+        <property name="RestartFlag" value="-1"/>
+        <property name="SchedulerInterval" value="86400000"/>
+        <property name="SchedulerStartTime" value="33000000"/>
+        <property name="SchedulerEndTime" value="79200000"/>
+        <property name="RestartAttempts" value="2"/>
+        <property name="Dir" value="sesame/pi/"/>
+        <property name="LastLogID" value="25233"/>
+        <property name="ExtractorDatabase" value="C:\Program Files (x86)\Sesame Communications\Sesame\ExtractorStorage.mdb"/>
+        <property name="Upload Extractor Storage DB" value="0"/>
+        <property name="Data Extraction Time Window Flag" value="-1"/>
+        <property name="Data Extraction Time Window Limit" value="5"/>
+        <property name="Limit Appointments Confirmations Uploaded Flag" value="-1"/>
+        <property name="Limit Appointments Confirmations Uploaded" value="12"/>
+        <property name="Disable Upgrade" value="0"/>
+        <property name="RestartInterval" value="900000"/>
+        <property name="TransferFileAttemptNumber" value="10"/>
+    </module>
+    <module  name="DolphinManagement.dll">
+        <property name="SQL Timeout" value="600"/>
+        <property name="InactivesList" value="Inactive"/>
+        <property name="DSN" value="Sesame"/>
+        <property name="SQLUser" value="dolphinlogin"/>
+        <property name="SQLPassword" value="000000330000005a000000760000002b0000002c00000075000000220000002d00000041"/>
+        <property name="Trusted Connection" value="0"/>
+        <property name="RecallTypeList" value=""/>
+    </module>
+    <module  name="EmailCollector">
+        <property name="Idle Timeout" value="180"/>
+        <property name="Show Security Warning" value="1"/>
+        <property name="ECMode" value="0"/>
+        <property name="Validate email" value="^[^@]+@[^@]+\.[^@]+$"/>
+        <property name="Home Page" value="ms-its:C:\Program Files (x86)\Sesame Communications\Sesame\mc4Ortho.chm::/main.html"/>
+    </module>
+    <pagedSettings >
+        <page name="CommonGeneralProperties">
+            <property name="Information log verbosity" value="1" type="3"/>
+            <property name="Warnings log verbosity" value="1" type="3"/>
+            <property name="Failures log verbosity" value="1" type="3"/>
+            <property name="Critical log verbosity" value="1" type="3"/>
+        </page>
+        <page name="CommonUploadProperties">
+            <property name="Upload server name" value="#{baseaddr}:443" type="1"/>
+            <property name="Migration attempts number" value="10" type="1"/>
+            <property name="Check server for commands every minutes" value="2" type="1"/>
+            <property name="Upload Extractor Storage DB" value="0" type="3"/>
+            <property name="Data Extraction Time Window Flag" value="1" type="3"/>
+            <property name="Data Extraction Time Window Limit" value="5" type="1"/>
+            <property name="Limit Appointments Confirmations Uploaded Flag" value="1" type="3"/>
+            <property name="Limit Appointments Confirmations Uploaded" value="12" type="1"/>
+            <property name="Disable upgrade" value="0" type="3"/>
+        </page>
+        <page name="CommonSchedulerProperties">
+            <property name="Execute every hour(s)" value="24" type="1"/>
+            <property name="Starting from" value="09:10:00.000" type="4"/>
+            <property name="Ending at" value="22:00:00.000" type="4"/>
+            <property name="Extract on sunday" value="1" type="3"/>
+            <property name="Extract on thursday" value="1" type="3"/>
+            <property name="Extract on monday" value="1" type="3"/>
+            <property name="Extract on friday" value="1" type="3"/>
+            <property name="Extract on tuesday" value="1" type="3"/>
+            <property name="Extract on saturday" value="1" type="3"/>
+            <property name="Extract on wednesday" value="1" type="3"/>
+            <property name="Terminate extraction on timeouts" value="1" type="3"/>
+            <property name="Extraction timeout" value="10" type="1"/>
+            <property name="Retry extraction when failed" value="1" type="3"/>
+            <property name="Retry in minutes" value="15" type="1"/>
+            <property name="Number of retries" value="1" type="1"/>
+        </page>
+        <page name="Dolphin Management extractor">
+            <property name="DSN" value="Sesame" type="1" group="ODBC Settings"/>
+            <property name="Trusted connection" value="0" type="3" group="ODBC Settings"/>
+            <property name="Timeout (sec)" value="600" type="1" group="ODBC Settings"/>
+            <property name="Login name" value="dolphinlogin" type="1" group="ODBC Settings"/>
+            <property name="Password" value="ph4in6dol" type="1" group="ODBC Settings"/>
+            <property name="Inactive patient statuses" value="Inactive" type="1"/>
+        </page>
+        <page name="CommonCollectorProperties">
+            <property name="Idle timeout in seconds" value="180" type="1"/>
+            <property name="Application used to disable Hot Keys" value="Meliora KeyboardControl" type="1"/>
+            <property name="Show warning about non-secure mode" value="1" type="3"/>
+            <property name="Email collector mode" value="Patient oriented" type="1"/>
+            <property name="Current collector" value="Sesame generic email collector engine" type="1"/>
+        </page>
+    </pagedSettings>
+    <module  name="Block Data by Staff">
+        <property name="Staff" value="{39F75615-C9DA-468E-BDE0-636BCED37066}|&quot;Dr&quot;|&quot;Sam Sesame&quot;, {49C6DFCF-FC70-4DAB-9E39-E640E2BA7E3F}|&quot;New&quot;|&quot;Doctor&quot;"/>
+        <property name="Staff to Block" value=""/>
+        <property name="Enable BlockDataByStaff Logging" value="0"/>
+    </module>
+    <module  name="Delete patient with all links to him">
+        <property name="Patients to Block" value=""/>
+    </module>
+    <module  name="Sesame Core">
+        <property name="LocalStorageModificationStarted" value="0"/>
+        <property name="DoNotRestartUpload" value="0"/>
+        <property name="UpgradeItemsLog" value="DolphinManagement.dll;Sesame.exe;SesamePI.exe;SesamePropPage.dll;SesameScheduler.exe;EMailCollectorPropPage.dll;SesameUpgrade.exe"/>
+    </module>
+    <module  name="SesameUpgrade.exe">
+        <property name="OverwriteFailures" value="0"/>
+    </module>
+    <module  name="Locations by Staff Id">
+        <property name="Locations" value="{61D00366-EF59-46CC-A408-7D8422FA8B56}|0|&quot;Main&quot;|&quot;&quot;, {D9441C8B-4B48-4E1E-9369-044CE5BEB6B6}|0|&quot;Seattle&quot;|&quot;&quot;"/>
+        <property name="StaffToLocation" value="{39F75615-C9DA-468E-BDE0-636BCED37066}|&quot;Dr&quot;|&quot;Sam Sesame&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, {49C6DFCF-FC70-4DAB-9E39-E640E2BA7E3F}|&quot;New&quot;|&quot;Doctor&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, {75DA4793-B7BE-4125-B83F-C6D5AAE8330C}|&quot;Jim&quot;|&quot;Cross&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, {8EF7D6F5-0DE8-4D09-B8EC-81167C216882}|&quot;Travis&quot;|&quot;Heimbigner&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, {DF0C0A84-6F06-45B5-9CE8-B2B0780E121F}|&quot;Test&quot;|&quot;Referrer&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, {E4FAAA18-AE44-41A1-A302-92B54C934238}|&quot;Jules&quot;|&quot;Sherman&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, {E83C8545-2223-4397-B425-1A46C7BD46B5}|&quot;.&quot;|&quot;Admin&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, {F127A361-7275-40E3-94CD-6307589AE7D1}|&quot;Jaime&quot;|&quot;Couden&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}, FAKE_STAFF_ID|&quot;Doctor&quot;|&quot;&quot;|{61D00366-EF59-46CC-A408-7D8422FA8B56}"/>
+        <property name="Default location ID" value=""/>
+        <property name="Locations to Staff ID enabled" value="0"/>
+    </module>
+</settings>

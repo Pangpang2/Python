@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DemandForce licenseKey="{{License}}" dFLinkVersion="{{DFLinkVersion}}" dFAPI="{{DFAPI}}" dFAPIVersion="{{DFAPIVersion}}" systemOS="{{SystemOS}}" scope="{{Scope}}" dataLocation="{{DataLocation}}" syncClient="{{SyncClient}}" appointmentCutOffDateTime="{{ApptCutOff}}">
+    <Business>
+        <Extract managementSystemName="{{ManagementSystemName}}" managementSystemVersion="{{ManagementSystemVersion}}" extractDateTime="{{Extract}}" processingTime="1" twoWayConfirmEnabled="{{TwoWayApptConfirmEnabled}}"/>
+    </Business>
+</DemandForce>

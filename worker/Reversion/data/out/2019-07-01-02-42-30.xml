@@ -1,0 +1,99 @@
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>2.1</version>
+        <portion_date>2019-06-27T13:17:55.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <db_version>15.1.0</db_version>
+        <username>ibexdtx01</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Staff>
+<record><ID>david</ID><FirstName>Dr.</FirstName><LastName>David</LastName><Speciality>Dentist</Speciality><Gender>0</Gender><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>david</Code></record>
+<record><ID>alex</ID><FirstName>Dr.Alex</FirstName><LastName/><Speciality>Dentist</Speciality><Gender>0</Gender><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>alex</Code></record>
+</Staff>
+<Patients>
+<record><ID>0022</ID><FirstName>dfRevenue2</FirstName><LastName>2</LastName><BirthDate>2018-01-31</BirthDate><Status>Active</Status><AddressID>0022</AddressID><Gender>2</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate>2017-02-06</FirstVisitDate><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0002</ID><FirstName>02Opt_in_T_A</FirstName><LastName>02Opt_in_E_A</LastName><BirthDate>1989-01-03</BirthDate><Status>Active</Status><AddressID>0002</AddressID><Gender>1</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate>2017-02-06</FirstVisitDate><StaffID/><OfficeID/><ExtensibleNotes/></record>
+</Patients>
+<Addresses>
+<record><ID>0022</ID><State>Alaska</State><City>Palmer</City><Street>customer street no.0022</Street><ZipCode>0022</ZipCode><Country/></record>
+<record><ID>0002</ID><State>Arizona</State><City>South_Tucson</City><Street>customer street no.0002</Street><ZipCode>0002</ZipCode><Country/></record>
+</Addresses>
+<Offices>
+<record><ID>FAKE_OFFICE</ID><OfficeName>IBEX Office</OfficeName><AddressID>0022</AddressID><FederalTaxID/><NationalProviderID/><PhoneNumber/></record>
+</Offices>
+<EMails>
+<record><ID>QAA01.Dental.o+dfRevenue2@d3one.com</ID><EMail>QAA01.Dental.o+dfRevenue2@d3one.com</EMail><OwnerName>dfRevenue2 2</OwnerName></record>
+<record><ID>02Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>02Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>02Opt_in_T_A 02Opt_in_E_A</OwnerName></record>
+</EMails>
+<PatientEMailLinks>
+<record><ID>0022</ID><PatientID>0022</PatientID><EMailID>QAA01.Dental.o+dfRevenue2@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0002</ID><PatientID>0002</PatientID><EMailID>02Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+<Appointments>
+<record><ID>840120190211000</ID><PatientID>0022</PatientID><StaffID>david</StaffID><OfficeID>FAKE_OFFICE</OfficeID><AppointmentDateTime>2019-07-11T15:00:00.000</AppointmentDateTime><Duration>45</Duration><Amount/><Status>new</Status><Noshow>0</Noshow><CreatedDate/><Facility/><Flag>0</Flag><Description>Digital X-Rays</Description><ConfirmedDate/></record>
+</Appointments>
+<Accounts>
+<record><ID>0022_0022</ID><PatientResponsibleLinkID>0022_0022</PatientResponsibleLinkID><InsuranceContractID>Cash, Master, Visa</InsuranceContractID><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0002_0002</ID><PatientResponsibleLinkID>0002_0002</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+</Accounts>
+<PatientResponsibleLinks>
+<record><ID>0022_0022</ID><PatientID>0022</PatientID><ResponsibleID>0022</ResponsibleID></record>
+<record><ID>0002_0002</ID><PatientID>0002</PatientID><ResponsibleID>0002</ResponsibleID></record>
+</PatientResponsibleLinks>
+<Responsibles>
+<record><ID>0022</ID><FirstName>dfRevenue2</FirstName><LastName>2</LastName><BirthDate>2018-01-31</BirthDate><AddressID/></record>
+<record><ID>0002</ID><FirstName>02Opt_in_T_A</FirstName><LastName>02Opt_in_E_A</LastName><BirthDate>1989-01-03</BirthDate><AddressID/></record>
+</Responsibles>
+<Procedures>
+<record><ID>225</ID><ProcedureCode>D4275</ProcedureCode><Description>Cavitiy Filling</Description><Duration>30</Duration><Amount>0</Amount></record>
+<record><ID>390</ID><ProcedureCode>D4273</ProcedureCode><Description>Tooth Extraction</Description><Duration>30</Duration><Amount>0</Amount></record>
+<record><ID>375</ID><ProcedureCode>D4383</ProcedureCode><Description>RESIN-THREE SURFACE POSTERIOR</Description><Duration>30</Duration><Amount>0</Amount></record>
+<record><ID>125</ID><ProcedureCode>D4175</ProcedureCode><Description>ANALGESIA (inhalation of nitrous oxide)</Description><Duration>30</Duration><Amount>0</Amount></record>
+<record><ID>875</ID><ProcedureCode>D4283</ProcedureCode><Description>Root Canal</Description><Duration>30</Duration><Amount>0</Amount></record>
+<record><ID>002220180220000</ID><ProcedureCode>TA</ProcedureCode><Description>Toothache</Description><Duration/><Amount/></record>
+<record><ID>002220180220001</ID><ProcedureCode>L</ProcedureCode><Description>Lumineers</Description><Duration/><Amount/></record>
+<record><ID>002220180220002</ID><ProcedureCode>DXR</ProcedureCode><Description>Digital X-Rays</Description><Duration/><Amount/></record>
+<record><ID>002220180220003</ID><ProcedureCode>DXR</ProcedureCode><Description>Digital X-Rays</Description><Duration/><Amount/></record>
+<record><ID>002220180220004</ID><ProcedureCode>TA</ProcedureCode><Description>Toothache</Description><Duration/><Amount/></record>
+</Procedures>
+<AppointmentProcedureLinks>
+<record><ID>840120190211000_225</ID><AppointmentID>840120190211000</AppointmentID><ProcedureID>225</ProcedureID></record>
+<record><ID>840120190211000_390</ID><AppointmentID>840120190211000</AppointmentID><ProcedureID>390</ProcedureID></record>
+<record><ID>840120190211000_375</ID><AppointmentID>840120190211000</AppointmentID><ProcedureID>375</ProcedureID></record>
+<record><ID>840120190211000_125</ID><AppointmentID>840120190211000</AppointmentID><ProcedureID>125</ProcedureID></record>
+<record><ID>840120190211000_875</ID><AppointmentID>840120190211000</AppointmentID><ProcedureID>875</ProcedureID></record>
+</AppointmentProcedureLinks>
+<InsuranceContracts>
+<record><ID>Cash, Master, Visa</ID><Carrier>Cash, Master, Visa</Carrier><IID/><InsurancePlan>Cash, Master, Visa</InsurancePlan><InsurancePlanType>0</InsurancePlanType><Rank>2</Rank><DentalBenefit/><DentalUsed/><OrthoBenefit/><OrthoUsed/><BenefitMonth/><EmployerID/></record>
+</InsuranceContracts>
+<Alerts>
+<record><ID>937203</ID><Description>Heart Trouble/Disease</Description></record>
+<record><ID>618296</ID><Description>Irregular Heartbeat</Description></record>
+<record><ID>78874</ID><Description>Shingles</Description></record>
+<record><ID>694217</ID><Description>Blood Transfusion</Description></record>
+<record><ID>964649</ID><Description>Alzheimer`s Disease</Description></record>
+<record><ID>105491</ID><Description>Allergic to Penicillin</Description></record>
+</Alerts>
+<PatientAlertLinks>
+<record><ID>0022_937203</ID><PatientID>0022</PatientID><AlertID>937203</AlertID></record>
+<record><ID>0022_618296</ID><PatientID>0022</PatientID><AlertID>618296</AlertID></record>
+<record><ID>0022_78874</ID><PatientID>0022</PatientID><AlertID>78874</AlertID></record>
+<record><ID>0002_694217</ID><PatientID>0002</PatientID><AlertID>694217</AlertID></record>
+<record><ID>0002_964649</ID><PatientID>0002</PatientID><AlertID>964649</AlertID></record>
+<record><ID>0002_105491</ID><PatientID>0002</PatientID><AlertID>105491</AlertID></record>
+</PatientAlertLinks>
+<Ledgers>
+<record><ID>002220180220000</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>90</Amount><Description>Toothache</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID>alex</StaffID><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220000</ProcedureID></record>
+<record><ID>002220180220001</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>120</Amount><Description>Lumineers</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220001</ProcedureID></record>
+<record><ID>002220180220002</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>150</Amount><Description>Digital X-Rays</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220002</ProcedureID></record>
+<record><ID>002220180220003</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>150</Amount><Description>Digital X-Rays</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220003</ProcedureID></record>
+<record><ID>002220180220004</ID><AccountID>0022_0022</AccountID><LedgerDateTime>2018-02-20T02:38:46.000</LedgerDateTime><Amount>90</Amount><Description>Toothache</Description><LedgerType>C</LedgerType><Due/><Balance/><StaffID/><Category>Diagnostic</Category><SubCategory/><ProcedureID>002220180220004</ProcedureID></record>
+</Ledgers>
+</insert>
+<update/>
+<delete/>
+</udbf-3>

@@ -1,0 +1,36 @@
+Delta Insert                                 Delta Update                               Delta Delete                                                  Insert for Exsting business
+C26109835	Addresses	                     C26109806	Addresses                       C26109864	Addresses                                         C26109908	Addresses	                  	                                                           26109909	Phones
+C26109836	Phones	                         C26109807	Phones                          C26109865	Phones                                            C26109909	Phones
+C26109837	EMails	                         C26109808	EMails                          C26109866	EMails                                            C26109910	EMails
+C26109838	Patients	                     C26109809	Patients                        C26109867	Patients                                          C26109911	Patients
+C26109839	Responsibles	                 C26109810	Responsibles                    C26109868	Responsibles                                      C26109912	Responsibles
+C26109840	Offices	                         C26109811	Offices                         C26109869	Offices                                           C26109913	Offices
+C26109841	Recalls	                         C26109812	Recalls                         C26109870	Recalls                                           C26109914	Recalls
+C26109842	Staff	                         C26109813	Staff                           C26109871	Staff                                             C26109915	Staff
+C26109843	Referrings	                     C26109814	Referrings                      C26109872	Referrings                                        C26109916	Referrings
+C26109844	Procedures	                     C26109815	Procedures                      C26109873	Procedures                                        C26109917	Procedures
+C26109845	Treatment Plans	                 C26109816	Treatment Plans                 C26109874	Treatment Plans                                   C26109918	Treatment Plans
+C26109846	Appointments	                 C26109817	Appointments                    C26109875	Appointments                                      C26109919	Appointments
+C26109847	Accounts	                     C26109818	Accounts                        C26109876	Accounts                                          C26109920	Accounts
+C26109848	Ledgers	                         C26109819	Ledgers                         C26109877	Ledgers                                           C26109921	Ledgers
+C26109849	PatientResponsibleLinks	         C26109820	PatientResponsibleLinks         C26109880	PatientResponsibleLinks                           C26109922	PatientResponsibleLinks
+C26109850	Insurance Contracts	             C26109821	Insurance Contracts             C26109884	Insurance Contracts                               C26109923	Insurance Contracts
+C26109851	Calendar Blocks	                 C26109822	Calendar Blocks                 C26109885	Calendar Blocks                                   C26109924	Calendar Blocks
+C26109852	Alerts	                         C26109823	Alerts                          C26109886	Alerts                                            C26109925	Alerts
+C26109853	Prescription	                 C26109824	Prescription                    C26109888	Prescription                                      C26109926	Prescription
+C26109854	AppointmentProcedureLinks		 C26109830	AppointmentProcedureLinks       C26109883	AppointmentProcedureLinks                         C26109927	AppointmentProcedureLinks
+C26109855	PatientAlertLinks	     		 C26109828	PatientAlertLinks               C26109887	PatientAlertLinks                                 C26109928	PatientAlertLinks
+C26109856	PatientPrescriptionLinks 		 C26109829	PatientPrescriptionLinks        C26109889	PatientPrescriptionLinks                          C26109929	PatientPrescriptionLinks
+C26109857	ResponsiblePhoneLinks	 		 C26109825	ResponsiblePhoneLinks           C26109878	ResponsiblePhoneLinks                             C26109932	ResponsiblePhoneLinks
+C26109858	ResponsibleEMailLinks	 		 C26109826	ResponsibleEMailLinks           C26109879	ResponsibleEMailLinks                             C26109933	ResponsibleEMailLinks
+C26109863	UDBF 3.4	             		 C26109834	UDBF 3.4                        C26109892	UDBF 3.4                                          C26109936	UDBF 3.4
+                                             C26109827	PatientStaffLinks               C26109881	PatientStaffLinks
+                                             C26109831	PatientReferringLinks           C26109882	PatientReferringLinks
+                                                                                        C26109890	PatientPhoneLinks
+                                                                                        C26109891	PatientEMailLinks
+
+
+
+
+[
+

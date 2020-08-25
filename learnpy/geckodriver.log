@@ -1,0 +1,158 @@
+1499738430460	geckodriver	INFO	Listening on 127.0.0.1:38598
+1499738432679	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.N4IKJG5V7j1v
+1499738432694	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\fixfox.exe
+1499738449601	geckodriver	INFO	Listening on 127.0.0.1:38607
+1499738451617	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.qUNUpasbB2oL
+1499738451633	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\fixfox.exe
+1499738464587	geckodriver	INFO	Listening on 127.0.0.1:38616
+1499738466587	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.DprbemPOG5ky
+1499738466602	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499738466665	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38622
+1499738467703	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499738472319	Marionette	INFO	Listening on port 38622
+1499738472687	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499738511501	Marionette	INFO	Ceased listening
+0.0.1:38655
+1499738509261	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.yhb7uvdrh5Ni
+1499738509277	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499738509293	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38661
+1499738509888	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499738512459	Marionette	INFO	Listening on port 38661
+1499738512959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499738524272	Marionette	INFO	Ceased listening
+0.0.1:38676
+1499738515311	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.7qrKJPyBOWD8
+1499738515324	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499738515342	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38692
+1499738516177	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499738518531	Marionette	INFO	Listening on port 38692
+1499738519097	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499738526420	Marionette	INFO	Ceased listening
+1499738527433	geckodriver	INFO	Listening on 127.0.0.1:38730
+1499738529467	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.LhZRkXJbg3oK
+1499738529483	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499738529498	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38736
+1499738530105	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499738532548	Marionette	INFO	Listening on port 38736
+1499738532934	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+TaskImpl_run@resource://gre/modules/Task.jsm:319:42
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:922:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:806:7
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:742:11
+observe@resource://gre/modules/AsyncShutdown.jsm:550:9
+addBlocker/moduleBlocker/<@resource://gre/components/nsAsyncShutdown.js:157:15
+Promise@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:390:5
+moduleBlocker@resource://gre/components/nsAsyncShutdown.js:153:29
+trigger@resource://gre/modules/AsyncShutdown.jsm:719:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:866:7
+wait@resource://gre/modules/AsyncShutdown.jsm:850:28
+observe@resource://gre/modules/AsyncShutdown.jsm:533:17
+
+1499738536403	Marionette	INFO	Ceased listening
+1499738593132	geckodriver	INFO	Listening on 127.0.0.1:38762
+1499738595164	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.3TgACDTHWhD9
+1499738595164	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499738595195	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38768
+1499738595805	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499738598179	Marionette	INFO	Listening on port 38768
+1499738598438	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499738599354	Marionette	INFO	New connections will no longer be accepted
+1499740613355	geckodriver	INFO	Listening on 127.0.0.1:38873
+1499740615370	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.4eARdv9hMKBN
+1499740615370	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499740615402	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38879
+1499740615990	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499740618523	Marionette	INFO	Listening on port 38879
+1499740618834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499740675559	Marionette	INFO	Ceased listening
+1499740676629	geckodriver	INFO	Listening on 127.0.0.1:38941
+1499740678644	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.MRP9HxP3mJ6o
+1499740678660	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499740678676	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38949
+1499740679292	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499740681932	Marionette	INFO	Listening on port 38949
+1499740682312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499740689248	Marionette	INFO	Ceased listening
+1499740725001	geckodriver	INFO	Listening on 127.0.0.1:39019
+1499740727001	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.ZcJD5IM3sCua
+1499740727017	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499740727032	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39025
+1499740727624	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499740729916	Marionette	INFO	Listening on port 39025
+1499740730755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499740741219	Marionette	INFO	Ceased listening
+1499741065446	geckodriver	INFO	Listening on 127.0.0.1:39109
+1499741067462	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.N90cqqJVW8ks
+1499741067477	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499741067493	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39115
+1499741068318	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741070559	Marionette	INFO	Listening on port 39115
+1499741070901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499741089653	Marionette	INFO	Ceased listening
+1499741099417	geckodriver	INFO	Listening on 127.0.0.1:39188
+1499741101449	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.hv7h2FkX4c07
+1499741101449	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499741101464	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39194
+1499741102039	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741104635	Marionette	INFO	Listening on port 39194
+1499741105140	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499741122879	Marionette	INFO	Ceased listening
+1499741187670	geckodriver	INFO	Listening on 127.0.0.1:39267
+1499741189670	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.guJ0KUR2YcWJ
+1499741189686	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499741189701	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39273
+1499741190302	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741193091	Marionette	INFO	Listening on port 39273
+1499741193531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499741401190	Marionette	INFO	Ceased listening
+0.0.1:39588
+1499741399152	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.x8ivOoJDsnS5
+1499741399152	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499741399168	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39594
+1499741399797	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741402266	Marionette	INFO	Listening on port 39594
+1499741402553	Marionette	WARN	TLS certificate errors will be1499741404396	mozprofile::p*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1499754399230	Marionette	INFO	Ceased listening
+NFO	Connecting to Marionette on localhost:39625
+1499741405362	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741408189	Marionette	INFO	Listening on port 39625
+1499741408573	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499741474282	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1499741474633	Marionette	INFO	Ceased listening
+a\Local\Temp\rust_mozprofile.mma4V0quBYiw
+1499741474094	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499741474114	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39728
+1499741474813	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741477195	Marionette	INFO	Listening on port 39728
+1499741477536	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Decode%20error%20-%20output%20not%20utf-8%20pyt&json=1&p=3&sid=1436_21106_22075&req=2&bs=google&pbs=Decode%20error%20-%20output%20not%20utf-8%20p&csor=35&pwd=Decode%20error%20-%20output%20not%20utf-8%20py&cb=jQuery110208420179713100668_1499741528401&_=1499741528408, line 1: TypeError: jQuery110208420179713100668_1499741528401 is not a function
+JavaScript error: http://static.blog.csdn.net/scripts/csdn_blog_detail.min.js, line 2: TypeError: t is null
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+1499754395557	Marionette	INFO	Ceased listening
+013	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741747291	Marionette	INFO	Listening on port 40016
+1499741747585	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499741824321	Marionette	INFO	Ceased listening
+0.0.1:40098
+1499741805057	mozprofile::profile	INFO	Using profile path C:\Users\LIYUET~1\AppData\Local\Temp\rust_mozprofile.nSGnTUEBsOhX
+1499741805073	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1499741805088	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40104
+1499741805695	Marionette	WARN	Deprecated preference marionette.defaultPrefs.enabled detected, please use marionette.enabled
+1499741808032	Marionette	INFO	Listening on port 40104
+1499741808272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499741823297	Marionette	INFO	Ceased listening

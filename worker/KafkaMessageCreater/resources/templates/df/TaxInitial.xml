@@ -1,0 +1,5 @@
+<Tax id="{{ManagementSystemID}}" pyFilingStatus="{{String1}}" cyEstimatedQ1="{{Integer1}}" cyEstimatedQ2="{{Integer2}}"
+     cyEstimatedQ3="{{Integer3}}" cyEstimatedQ4="{{Integer4}}" pyIncomeWages="{{Integer5}}"
+     pyIncomeInterest="{{Integer6}}" pyIncomeRefund="{{Integer7}}" pyIncomeDividend="{{Integer8}}"
+     pyIncomeAlimony="{{Integer9}}" pyIncomeBusiness="{{Integer10}}" pyIncomeCapitalGL="{{Integer11}}"
+     pyIncomeTaxableIRA="{{Integer12}}" pyIncomeOther="{{Integer13}}" pyIncomeTotal="{{Integer14}}" />

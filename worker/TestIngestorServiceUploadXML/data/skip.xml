@@ -1,0 +1,15 @@
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>2.1</version>
+        <portion_date>2019-08-16T02:58:45.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <username>translator_initial</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+</insert>
+<update/>
+<delete/>
+</udbf-3>

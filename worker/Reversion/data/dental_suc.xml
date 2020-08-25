@@ -1,0 +1,25 @@
+<DemandForce componentUrl="https://secure.demandforce.com/dflink/setup/" dFAPI="d3dxsapi.dll" dFAPIVersion="3.0.34.0" dFLinkVersion="3.7.105.0" dFUpdateVersion="3.0.5.0" dataLocation="DFLink" licenseKey="20A35973-BD9D-A7BD-3BA6-3FA4494C0BD5" scope="full" systemName="SERVER" systemOS="Microsoft Windows NT Server 6.0 Service Pack 2 (Build 6002)" systemUser="SYSTEM">
+<Business id="138024313">
+<Extract extractDateTime="2019-01-30T02:38:46-07:00" managementSystemName="Dentrix" managementSystemVersion="G5" />
+<DFLinkSettings />
+<Customer firstVisit="2017-02-06T02:38:46-07:00" id="0022" insuranceType="Cash, Master, Visa" lastMaintenanceDate="2018-02-06T02:38:46-07:00" lastVisit="2018-02-06T02:38:46-07:00">
+<Demographics address1="customer street no.0022" birthday="2018-01-31T02:38:46-07:00" city="Palmer" countryCode="US" email="QAA01.Dental.o+dfRevenue2@d3one.com" firstName="dfRevenue2" gender="1" lastName="2" state="Alaska" zip="0022" />
+<Transaction charge="90" code="TA" date="2018-02-20T02:38:46-07:00" description="Toothache" id="002220180220000" provider="alex" providerName="Dr.Alex" type="1" />
+<Transaction charge="120" code="L" date="2018-02-20T02:38:46-07:00" description="Lumineers" id="002220180220001" provider="alex" providerName="Dr. Alex" type="1" />
+<Transaction charge="150" code="DXR" date="2018-02-20T02:38:46-07:00" description="Digital X-Rays" id="002220180220002" provider="david" providerName="Dr. David" type="1" />
+<Transaction charge="150" code="DXR" date="2018-02-20T02:38:46-07:00" description="Digital X-Rays" id="002220180220003" provider="david" providerName="Dr. David" type="1" />
+<Transaction charge="90" code="TA" date="2018-02-20T02:38:46-07:00" description="Toothache" id="002220180220004" provider="alex" providerName="Dr.Alex" type="1" />
+<PatientAlert description="Irregular Heartbeat" id="618296" />
+<PatientAlert description="Shingles" id="78874" />
+<PatientAlert description="Heart Trouble/Disease" id="937203" />
+<Appointment date="2019-07-11T15:00:00-07:00" description="Digital X-Rays" duration="45" id="840120190211000" provider="david" providerName="Dr. David">
+<ApptCode code="D4175" description="ANALGESIA (inhalation of nitrous oxide)" externalCode="D4275" id="125" />
+<ApptCode code="D4275" description="Cavitiy Filling" externalCode="D4275" id="225" />
+<ApptCode code="D4383" description="RESIN-THREE SURFACE POSTERIOR" externalCode="D4383" id="375" />
+<ApptCode code="D4273" description="Tooth Extraction" externalCode="D4273" id="390" />
+<ApptCode code="D4283" description="Teeth Cleaning" externalCode="D4283" id="875" />
+<ApptCode code="D4283" description="Root Canal" externalCode="D4283" id="875" />
+</Appointment>
+</Customer>
+</Business>
+</DemandForce>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><DemandForce dllVersion="{runHourlySetting.dll:;libeay32.dll:1.0.1.6;ssleay32.dll:1.0.1.6;ZipDLL.dll:1.73.4.1}" licenseKey="${license_key}" scope="${scope}">
+<Business>
+<Extract extractDateTime="${extract_datetime}" managementSystemName="${system}" processingTime="15">
+ <DFLinkSettings>
+<GlobalSettings>
+<CurrentStep>SelectUploadTime</CurrentStep><InstallDir>C:\Program Files (x86)\Demandforce D3\DFLink</InstallDir><URL>https://secure.demandforce.com</URL><AntiVirusName>AVG</AntiVirusName><AntiVirusInfoURL>www.demandforce.com/d3one/av/avg</AntiVirusInfoURL><RESTURL>https://connect.demandforced3.com/v1.0</RESTURL><DeleteXML>True</DeleteXML><LastRunDFUpdate>2015-12-08T14:30:00-06:00</LastRunDFUpdate><Debug>False</Debug><DebugAPI>False</DebugAPI><LastRunHourlySetting>2017-12-08T14:30:19-06:00</LastRunHourlySetting></GlobalSettings><BusinessList>
+<Business>
+<OtherOptions1>*</OtherOptions1><OptionActiveOnly>TRUE</OptionActiveOnly><DataDir>DentrixSQL,localhost,6597</DataDir><OtherOptions2>G5</OtherOptions2><System>Dentrix</System><Industry>DENTAL</Industry><Username>contact@waterwaydental.com</Username><Password></Password><APINAME>d3dxsapi.dll</APINAME><Name>Office 1</Name><InitialUploadDate>6/4/2015</InitialUploadDate><LastAttemptedUploadDate>12/8/2015</LastAttemptedUploadDate><LastUploadDate>12/8/2015</LastUploadDate>
+<LicenseKey>${license_key}</LicenseKey><OptionApptPostConfirmStatus>DFFIRM</OptionApptPostConfirmStatus><OptionApptConfirmStatus>FIRM,DFFIRM</OptionApptConfirmStatus><Last2WaySyncDate>2015-12-08T21:25:05Z</Last2WaySyncDate><APIUsername>cqlO9VEYCpfH0Imz5TRhTHK0tPOkMf==</APIUsername><APIPassword>PWoPCJgesOM=</APIPassword><InitialDFConfig>393</InitialDFConfig><TotalDFConfig>1976</TotalDFConfig><RunCount>5</RunCount><DFUpdateInterval>60</DFUpdateInterval><EndTimeFromTask>8:00 PM</EndTimeFromTask><IntervalFromTask>60</IntervalFromTask><StartTimeFromTask>8:24 AM</StartTimeFromTask><TwoWayInterval>60</TwoWayInterval><TwoWayConfirmation>
+<Enable>TRUE</Enable></TwoWayConfirmation><DailyMultiUploadTask>
+<Times>10:00 AM,2:00 PM,8:00 PM</Times><Type>INTERVAL</Type><Interval><Start/><End/><RepeatEvery/></Interval></DailyMultiUploadTask>
+</Business>
+</BusinessList>
+</DFLinkSettings>
+</Extract>
+
+<Customer id="333" partial="true">
+<Animal id="31" >
+	<Appointment id="330" recordType="delete">
+	</Appointment>
+	<Appointment id="430" provider="MayLe" providerName="John LaUpdated" providerId="GAP" facility="DR CHAD 3" date="${appt_date}" duration="30" code="D2393" description="Test1 Description">
+		<ApptCode id="222:1" recordType="delete"/>
+	</Appointment>
+	<Transaction recordType="delete"/>
+	<Recommendation code="1802" date="2016-03-20T00:00:00-07:00" description="Peter_2Update" id="23"/>
+	</Animal>
+</Customer>
+</Business>
+</DemandForce>

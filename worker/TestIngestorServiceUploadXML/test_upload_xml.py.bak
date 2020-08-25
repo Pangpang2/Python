@@ -1,0 +1,140 @@
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email.mime.text import MIMEText
+from bs4 import BeautifulSoup
+import requests
+import time
+import os
+
+
+def upload_xml(url, auth_token, filepath):
+    envelope = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:upl="http://upload.sesamecommunications.com">
+       <soapenv:Header/>
+       <soapenv:Body>
+          <upl:uploadXML>
+             <authToken>{auth_token}</authToken>
+          </upl:uploadXML>
+       </soapenv:Body>
+    </soapenv:Envelope>
+    """.format(auth_token=auth_token)
+
+    #################
+    mtompkg = MIMEMultipart('related',boundary='------=_Part_0_56989739.1555465344345', type='text/xml')
+
+    del(mtompkg['mime-version'])
+    del(mtompkg['User-Agent'])
+    del(mtompkg['Accept-Encoding'])
+
+    ###########################
+    rootpkg = MIMEText(envelope, 'xml')
+    rootpkg.set_charset('utf-8')
+
+    del(rootpkg['Content-Transfer-Encoding'])
+    del(rootpkg['mime-version'])
+
+    mtompkg.attach(rootpkg)
+
+    ##############################
+    filename = os.path.abspath(filepath).split('\\')[-1]
+    with open(filename, 'rb') as fp:
+        msg = MIMEBase('application', 'octet-stream')
+        msg.set_payload(fp.read())
+    msg.add_header('Content-ID', filename)
+
+    del(msg['mime-version'])
+
+    mtompkg.attach(msg)
+
+    #############################################
+    bound = '--%s' % (mtompkg.get_boundary(), )
+    marray = mtompkg.as_string().split(bound)
+    mtombody = bound
+    mtombody += bound.join(marray[1:])
+
+    mtompkg.add_header("Content-Length", str(len(mtombody)))
+
+    print mtombody
+
+    headers = dict(mtompkg.items())
+    body = mtompkg.as_string().split('\n\n', 1)[1]
+    body = body.replace('\n', '\r\n', 5)
+    response = requests.post(url, data=body, headers=headers)
+
+    return response
+
+
+def parse_soap_response_content(response, node_name, first_only=True):
+    if response:
+        bs = BeautifulSoup(response.content, 'html.parser')
+        nodes = bs.find_all(node_name.lower())
+
+        if first_only:
+            return nodes[0]
+        else:
+            return nodes
+
+    return None
+
+def get_upload_status(url, auth_token):
+    headers = {'Content-Type': 'text/xml;charset=UTF-8'}
+    body = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:upl="http://upload.sesamecommunications.com">
+           <soapenv:Header/>
+           <soapenv:Body>
+              <upl:getUploadXMLStatus>
+                 <authToken>{auth_token}</authToken>
+              </upl:getUploadXMLStatus>
+           </soapenv:Body>
+        </soapenv:Envelope>""".format(auth_token=auth_token)
+
+    response = requests.post(url, data=body, headers=headers)
+    status = parse_soap_response_content(response, 'status')
+    error = parse_soap_response_content(response, 'errorMessage')
+    print status, error
+    return status.text
+
+
+def get_auth_token(url, username, password):
+    headers = {'Content-Type': 'text/xml;charset=UTF-8'}
+    body = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:auth="http://auth.sesamecommunications.com">
+                   <soapenv:Header/>
+                   <soapenv:Body>
+                      <auth:authenticateMember>
+                         <userName>{username}</userName>
+                         <password>{password}</password>
+                      </auth:authenticateMember>
+                   </soapenv:Body>
+                </soapenv:Envelope>""".format(username=username, password=password)
+
+    response = requests.post(url, data=body, headers=headers)
+    status = parse_soap_response_content(response, 'authToken')
+    return status.text
+
+
+if __name__ == '__main__':
+
+    auth_url = 'http://stg-ibex.internetbrands.com/auth/ws'
+    up_url = 'http://stg-ibex.internetbrands.com/upload/ws'
+    # auth_url = 'http://10.20.0.121:9999/auth/ws'
+    # up_url = 'http://10.20.0.121:9999/upload/ws'
+
+    #successed
+    auth_token = get_auth_token(auth_url, 'ibexdtx01', 'onibex1!')
+    filepath = "./dfcxaute4f2ec77@d3one.com.xml.gz"
+
+    # auth_token = get_auth_token(auth_url, 'dfcxaut9627ef7b@d3one.com', 'password')
+    # filepath = "./dfcxaut9627ef7b@d3one.com.xml.gz"
+
+    #failed
+    # auth_token = get_auth_token(auth_url, 'DentrixIBEX@d3one.com', '^bwe$5Yn')
+    # filepath = "./DentrixIBEX@d3one.com.xml.gz"
+
+    response = upload_xml(up_url, auth_token, filepath)
+
+    if response.status_code == 200 :
+        status = 'in_progress'
+        while status == 'in_progress':
+            time.sleep(5)
+            status = get_upload_status(up_url, auth_token)
+    else :
+        faultstring = parse_soap_response_content(response, 'faultstring')
+

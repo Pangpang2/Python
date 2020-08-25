@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XMLRoot>
+  <DemandForce systemOS="" systemName="" systemUser="" systemIPAddress="" antivirusSystemName="" dotNETFrameworkVersion="" macAddress=""/>
+  <DFLinkSettings StartTimeFromTask="8:24 AM" EndTimeFromTask="8:00 PM" IntervalFromTask="60" TwoWayInterval="60" DFUpdateInterval="60" LastRunDFUpdate="2015-12-08 14:30:00" LastRunHourlySetting="2017-12-08 14:30:19" RestUrl="https://connect.demandforced3.com/v1.0" DeleteXML="True" InstallDir="C:\Program Files (x86)\Demandforce D3\DFLink" URL="https://secure.demandforce.com"/>
+  <Accounts>
+    <Account id="41:1" overdueBalance="392" openBalance="59" totalRevenue=""/>
+  </Accounts>
+  <Animals>
+    <Animal id="31" name="33" species="Canine" breed="Test33" coatColor="Black and Tan33-222" sex="N" provider="33" providerName="Dr. Earl 33" birthday="2010-06-01" firstVisit="2010-06-26" lastVisit="2012-07-11" weight="24.6" weightUnits="lbs"/>
+    <Animal id="41" name="Copper" species="Canine" breed="Aus. Shepherd" coatColor="Black and Tan" sex="N" provider="EE" providerName="Dr. Earl Evans" birthday="2010-06-01" firstVisit="2012-06-26" lastVisit="2012-07-11" weight="44.6" weightUnits="lbs"/>
+  </Animals>
+  <Customs>
+    <Custom id="42:1" name="Model" value="F5022"/>
+  </Customs>
+  <Diagnosis>
+    <Diagnosis id="4322:1" date="2015-09-04 00:00:00" internalCode="" externalCode="367.1" description="Myopia_2" category="" dismissed=""/>
+  </Diagnosis>
+  <Eyewears>
+    <Eyewear id="4:1L" dispensed="0" type="frames22" dispensedDate="2010-09-22 00:00:00" received="0" receivedDate="2011-09-22 00:00:00"/>
+  </Eyewears>
+  <Memberships/>
+  <Taxes>
+    <Tax id="4:1" pyFilingStatus="Single_2" cyEstimatedQ1="" cyEstimatedQ2="" cyEstimatedQ3="" cyEstimatedQ4="" pyIncomeWages="" pyIncomeInterest="" pyIncomeRefund="" pyIncomeDividend="" pyIncomeAlimony="" pyIncomeBusiness="" pyIncomeCapitalGL="" pyIncomeTaxableIRA="" pyIncomeOther="" pyIncomeTotal=""/>
+  </Taxes>
+  <Appointments>
+    <Appointment id="330" provider="" providerName="" description="111, retainer check" duration="30" date="2017-04-30 02:19:00" confirmedDate="2018-08-08 17:54:39" facility="IM - " code="" providerId=""/>
+    <Appointment id="440" provider="" providerName="" description="PORTH,_2" duration="29" date="2017-08-17 10:18:00" confirmedDate="" facility="Dr Im-Exams/Checks" code="" providerId=""/>
+    <Appointment id="441" provider="" providerName="" description="PORTH," duration="29" date="2017-08-16 10:18:00" confirmedDate="" facility="Dr Im-Exams/Checks" code="" providerId="">
+      <ApptCode id="42:1" code="D8670" description="PERIODIC ORTHODONTIC TREATMENT VISIT_2" externalCode="D8670"/>
+    </Appointment>
+  </Appointments>
+  <CalendarBlocks>
+    <CalendarBlock id="1:20170107" scheduledDate="2013-08-07 00:00:00" title="Holiday_2" duration="1430" facility="1" notes=""/>
+    <CalendarBlock id="1:20170108" scheduledDate="2013-07-08 00:00:00" title="Test_2" duration="1440" facility="1" notes=""/>
+  </CalendarBlocks>
+  <Customers>
+    <Customer id="333" parentId="" firstVisit="" lastVisit="" type="" insuranceType="" patientType="" lastMaintenanceDate="" maintenanceInterval="0" maintenanceIntervalUnit="" referral="" points=""/>
+    <Customer id="444" parentId="" firstVisit="" lastVisit="" type="" insuranceType="" patientType="" lastMaintenanceDate="" maintenanceInterval="0" maintenanceIntervalUnit="" referral="" points=""/>
+  </Customers>
+  <PatientAlerts/>
+  <Providers>
+    <Provider id="1" firstName="Waitlist" middleName="" lastName="Test" bookingName="" code="1" identificationNumber="0" active="0" type=""/>
+    <Provider id="1111111111111111111111111111111111111111111111111111111111111111" firstName="VarcharTest" middleName="" lastName="Boos" bookingName="" code="9" identificationNumber="0" active="1" type=""/>
+    <Provider id="11111111111111111111111111111111111111111111111111111111111111111" firstName="VarcharLongerTest" middleName="" lastName="Boos" bookingName="" code="9" identificationNumber="0" active="0" type=""/>
+    <Provider id="4" firstName="Jeffrey" middleName="J" lastName="Ritsema OD" bookingName="" code="4" identificationNumber="1497731996" active="1" type="Corporation"/>
+    <Provider id="5" firstName="Jeffrey" middleName="James" lastName="Kenyon OD FAAO" bookingName="" code="5" identificationNumber="1659334522" active="1" type="Corporation"/>
+    <Provider id="6" firstName="Laura" middleName="Lynn" lastName="Kenyon OD FAAO" bookingName="" code="6" identificationNumber="1912960923" active="1" type="Corporation"/>
+    <Provider id="7" firstName="John Gregory" middleName="" lastName="Ford OD" bookingName="" code="7" identificationNumber="1205812229" active="1" type="Corporation"/>
+  </Providers>
+  <Recalls/>
+  <Recommendations>
+    <Recommendation id="23" date="2016-03-20 00:00:00" description="Peter_2" type=""/>
+    <Recommendation id="25" date="2016-03-20 00:00:00" description="Test_update" type=""/>
+  </Recommendations>
+  <Vehicles/>
+  <Transactions>
+    <Transaction type="1" id="41" date="2016-03-30" charge="19.95" provider="" providerName="SR1_2" category="" SubCategory="" code="1" description="Oil Change" status="0" proivderId=""/>
+  </Transactions>
+</XMLRoot>

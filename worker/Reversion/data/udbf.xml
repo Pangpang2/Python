@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>2.1</version>
+        <portion_date>2019-06-27T13:17:55.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <db_version>15.1.0</db_version>
+        <username>ibexdtx01</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Staff>
+</Staff>
+<Patients>
+</Patients>
+<Addresses>
+</Addresses>
+<Offices>
+<record><ID>FAKE_OFFICE</ID><OfficeName>IBEX Office</OfficeName><AddressID>0022</AddressID><FederalTaxID></FederalTaxID><NationalProviderID></NationalProviderID><PhoneNumber></PhoneNumber></record>
+</Offices>
+<EMails>
+</EMails>
+<PatientEMailLinks>
+</PatientEMailLinks>
+<Appointments>
+</Appointments>
+<Accounts>
+</Accounts>
+<PatientResponsibleLinks>
+</PatientResponsibleLinks>
+<Responsibles>
+</Responsibles>
+<Procedures>
+</Procedures>
+<AppointmentProcedureLinks>
+</AppointmentProcedureLinks>
+<InsuranceContracts>
+</InsuranceContracts>
+<Alerts>
+</Alerts>
+<PatientAlertLinks>
+</PatientAlertLinks>
+<Ledgers>
+</Ledgers>
+</insert>
+<update></update>
+<delete></delete>
+</udbf-3>

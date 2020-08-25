@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<XMLRoot>
+  <DemandForce systemOS="Win00" systemName="D3-PRACTICEDIR" systemUser="demandforce" systemIPAddress="194.168.1.100" antivirusSystemName="e2e" dotNETFrameworkVersion="4.5" macAddress="10.10.10.99"/>
+  <DFLinkSettings StartTimeFromTask="7:05 PM" EndTimeFromTask="18:24 PM" IntervalFromTask="30" TwoWayInterval="5" DFUpdateInterval="60" LastRunDFUpdate="2015-11-08 21:10:32" LastRunHourlySetting="2016-08-09 17:00:26" RestUrl="https://connect.demandforced3.com" DeleteXML="False" InstallDir="C:\TestRoot" URL="https://sandbox.demandforced3.com"/>
+  <Accounts>
+    <Account id="121:1" overdueBalance="60" openBalance="60" totalRevenue=""/>
+    <Account id="121:2" overdueBalance="60" openBalance="60" totalRevenue=""/>
+    <Account id="124:1" overdueBalance="60" openBalance="60" totalRevenue=""/>
+    <Account id="1:1" overdueBalance="60" openBalance="60" totalRevenue=""/>
+    <Account id="21:1" overdueBalance="22" openBalance="21" totalRevenue=""/>
+    <Account id="221:1" overdueBalance="60" openBalance="60" totalRevenue=""/>
+    <Account id="2:1" overdueBalance="60" openBalance="60" totalRevenue=""/>
+  </Accounts>
+  <Animals/>
+  <Customs>
+    <Custom id="122:1" name="Make" value="F50"/>
+    <Custom id="125:1" name="MakeDeleted" value="F50Deleted"/>
+    <Custom id="222:1" name="Make" value="F51"/>
+    <Custom id="22:1" name="Make" value="F50"/>
+  </Customs>
+  <Diagnosis>
+    <Diagnosis id="124:1" date="2015-09-04 00:00:00" internalCode="" externalCode="1367.1" description="Fine" category="" dismissed=""/>
+    <Diagnosis id="124:2" date="2015-09-04 00:00:00" internalCode="" externalCode="1367.1" description="Fine deleted" category="" dismissed=""/>
+    <Diagnosis id="224:1" date="2015-09-04 00:00:00" internalCode="" externalCode="367.1" description="Fine" category="" dismissed=""/>
+    <Diagnosis id="24:1" date="2015-09-04 00:00:00" internalCode="" externalCode="367.1" description="Fine" category="" dismissed=""/>
+    <Diagnosis id="523:2" date="2019-11-24 00:00:00" internalCode="" externalCode="367.4" description="Peter test for e2e" category="" dismissed=""/>
+    <Diagnosis id="523:3" date="2009-11-24 00:00:00" internalCode="" externalCode="362.11" description="Hypertensive retinopathy" category="" dismissed=""/>
+    <Diagnosis id="523:4" date="2009-11-24 00:00:00" internalCode="" externalCode="366.04" description="Nuclear cataract" category="" dismissed=""/>
+    <Diagnosis id="67:2" date="2009-11-07 00:00:00" internalCode="" externalCode="" description="" category="" dismissed=""/>
+    <Diagnosis id="806:3" date="2010-08-12 00:00:00" internalCode="" externalCode="" description="" category="" dismissed=""/>
+    <Diagnosis id="806:4" date="2010-08-12 00:00:00" internalCode="" externalCode="" description="" category="" dismissed=""/>
+    <Diagnosis id="9:3" date="2009-09-26 00:00:00" internalCode="" externalCode="" description="" category="" dismissed=""/>
+  </Diagnosis>
+  <Eyewears>
+    <Eyewear id="12:11L" dispensed="0" type="Lee12deleted" dispensedDate="2015-09-22 00:00:00" received="0" receivedDate="2011-09-22 00:00:00"/>
+    <Eyewear id="12:1L" dispensed="0" type="Lee12" dispensedDate="2010-09-22 00:00:00" received="0" receivedDate="2011-09-22 00:00:00"/>
+    <Eyewear id="22:1L" dispensed="0" type="Lee" dispensedDate="2010-09-22 00:00:00" received="0" receivedDate="2011-09-22 00:00:00"/>
+    <Eyewear id="2:1L" dispensed="0" type="Lee" dispensedDate="2018-09-22 00:00:00" received="0" receivedDate="2011-09-22 00:00:00"/>
+  </Eyewears>
+  <Memberships>
+    <Membership id="100" member="1" startDate="2015-09-24 00:00:00" expirationDate="2016-11-23 00:00:00" cancelReason="SampleCancelReason" memberType="MONTH TO MONTH"/>
+    <Membership id="101" member="0" startDate="2017-09-24 00:00:00" expirationDate="2018-11-23 00:00:00" cancelReason="PeterTest" memberType="P2"/>
+    <Membership id="102" member="1" startDate="2015-09-24 00:00:00" expirationDate="2016-11-23 00:00:00" cancelReason="SampleCancelReasonDeltetd" memberType="MONTH TO MONTH"/>
+  </Memberships>
+  <Taxes>
+    <Tax id="1" pyFilingStatus="Double" cyEstimatedQ1="123" cyEstimatedQ2="" cyEstimatedQ3="" cyEstimatedQ4="" pyIncomeWages="" pyIncomeInterest="" pyIncomeRefund="" pyIncomeDividend="" pyIncomeAlimony="" pyIncomeBusiness="" pyIncomeCapitalGL="" pyIncomeTaxableIRA="" pyIncomeOther="" pyIncomeTotal="222"/>
+    <Tax id="122:1" pyFilingStatus="DoubleDeleted" cyEstimatedQ1="" cyEstimatedQ2="" cyEstimatedQ3="" cyEstimatedQ4="" pyIncomeWages="" pyIncomeInterest="" pyIncomeRefund="" pyIncomeDividend="" pyIncomeAlimony="" pyIncomeBusiness="" pyIncomeCapitalGL="" pyIncomeTaxableIRA="" pyIncomeOther="" pyIncomeTotal=""/>
+    <Tax id="12:1" pyFilingStatus="Double1" cyEstimatedQ1="" cyEstimatedQ2="" cyEstimatedQ3="" cyEstimatedQ4="" pyIncomeWages="" pyIncomeInterest="" pyIncomeRefund="" pyIncomeDividend="" pyIncomeAlimony="" pyIncomeBusiness="" pyIncomeCapitalGL="" pyIncomeTaxableIRA="" pyIncomeOther="" pyIncomeTotal=""/>
+    <Tax id="2" pyFilingStatus="Signal" cyEstimatedQ1="12" cyEstimatedQ2="" cyEstimatedQ3="" cyEstimatedQ4="" pyIncomeWages="" pyIncomeInterest="" pyIncomeRefund="" pyIncomeDividend="" pyIncomeAlimony="" pyIncomeBusiness="" pyIncomeCapitalGL="" pyIncomeTaxableIRA="" pyIncomeOther="" pyIncomeTotal="22"/>
+    <Tax id="22:1" pyFilingStatus="Double2" cyEstimatedQ1="" cyEstimatedQ2="" cyEstimatedQ3="" cyEstimatedQ4="" pyIncomeWages="" pyIncomeInterest="" pyIncomeRefund="" pyIncomeDividend="" pyIncomeAlimony="" pyIncomeBusiness="" pyIncomeCapitalGL="" pyIncomeTaxableIRA="" pyIncomeOther="" pyIncomeTotal=""/>
+    <Tax id="2:1" pyFilingStatus="Double" cyEstimatedQ1="" cyEstimatedQ2="" cyEstimatedQ3="" cyEstimatedQ4="" pyIncomeWages="" pyIncomeInterest="" pyIncomeRefund="" pyIncomeDividend="" pyIncomeAlimony="" pyIncomeBusiness="" pyIncomeCapitalGL="" pyIncomeTaxableIRA="" pyIncomeOther="" pyIncomeTotal=""/>
+  </Taxes>
+  <Appointments>
+    <Appointment id="21" provider="RB01" providerName="Mr. Rick Berry" description="Test13" duration="30" date="2018-01-30 19:36:00" confirmedDate="" facility="OP-2" code="" providerId="">
+      <ApptCode id="232:1" code="D0150" description="Test" externalCode=""/>
+    </Appointment>
+    <Appointment id="231" provider="RB011" providerName="Mr. Rick Berry" description="Test131" duration="30" date="2017-08-25 19:36:00" confirmedDate="" facility="OP-1" code="" providerId="">
+      <ApptCode id="231:1" code="D01501" description="Test1" externalCode=""/>
+      <ApptCode id="231:2" code="123" description="Test11" externalCode=""/>
+    </Appointment>
+  </Appointments>
+  <CalendarBlocks>
+    <CalendarBlock id="111" scheduledDate="2017-09-07 00:00:00" title="Holiday" duration="999" facility="1" notes=""/>
+    <CalendarBlock id="222" scheduledDate="2017-06-08 00:00:00" title="Test" duration="1440" facility="1" notes="" invalid="true"/>
+    <CalendarBlock id="333" scheduledDate="2017-05-07 00:00:00" title="Peter" duration="1440" facility="1" notes="" invalid="true"/>
+    <CalendarBlock id="444" scheduledDate="2017-08-07 00:00:00" title="Holiday" duration="999" facility="test" notes=""/>
+    <CalendarBlock id="555" scheduledDate="2018-12-08 00:00:00" title="Test" duration="1440" facility="test" notes="" invalid="true"/>
+    <CalendarBlock id="666" scheduledDate="2016-11-07 00:00:00" title="Peter" duration="1440" facility="test" notes="" invalid="true"/>
+  </CalendarBlocks>
+  <Customers>
+    <Customer id="100" parentId="" firstVisit="" lastVisit="2009-11-07" type="" insuranceType="" patientType="" lastMaintenanceDate="" maintenanceInterval="0" maintenanceIntervalUnit="" referral="NewFieldToBeAdded2222" points=""/>
+    <Customer id="101" parentId="" firstVisit="" lastVisit="2012-07-14" type="" insuranceType="" patientType="" lastMaintenanceDate="" maintenanceInterval="0" maintenanceIntervalUnit="" referral="NewFieldToBeAdded11" points="101"/>
+    <Customer id="102" parentId="" firstVisit="2010-04-03" lastVisit="2010-04-24" type="" insuranceType="" patientType="" lastMaintenanceDate="2009-11-24" maintenanceInterval="0" maintenanceIntervalUnit="" referral="1234Peter" points="101"/>
+    <Customer id="103" parentId="" firstVisit="" lastVisit="" type="" insuranceType="" patientType="" lastMaintenanceDate="" maintenanceInterval="0" maintenanceIntervalUnit="" referral="" points="111"/>
+    <Customer id="104" parentId="" firstVisit="" lastVisit="" type="" insuranceType="" patientType="" lastMaintenanceDate="" maintenanceInterval="0" maintenanceIntervalUnit="" referral="104" points="111"/>
+    <Customer id="105" parentId="" firstVisit="" lastVisit="" type="" insuranceType="" patientType="" lastMaintenanceDate="" maintenanceInterval="0" maintenanceIntervalUnit="" referral="" points="111"/>
+  </Customers>
+  <PatientAlerts>
+    <PatientAlert id="4321" startDate="2015-08-12 00:00:00" endDate="2015-10-12 00:00:00" description="Blood pressure testing"/>
+    <PatientAlert id="4321" startDate="2015-08-12 00:00:00" endDate="2015-10-12 00:00:00" description="Blood pressure testing11"/>
+    <PatientAlert id="43210" startDate="2016-08-12 00:00:00" endDate="2018-10-12 00:00:00" description="Blood pressure testing112"/>
+    <PatientAlert id="54321" startDate="2015-08-12 00:00:00" endDate="2015-10-12 00:00:00" description="Blood pressure testing"/>
+  </PatientAlerts>
+  <Providers>
+    <Provider id="2" firstName="Waitlist" middleName="" lastName="Test" bookingName="Gao" code="1" identificationNumber="0" active="0" type=""/>
+    <Provider id="4" firstName="Peter" middleName="Gao" lastName="Ritsema OD" bookingName="" code="4" identificationNumber="1497731996" active="1" type="Corporation"/>
+  </Providers>
+  <Recalls>
+    <Recall id="1:FMX" date="2014-12-03 00:00:00" type="FMX" provider="CM01test" status="1: AptSch    Appointment Scheduled"/>
+    <Recall id="5:PERIO" date="2012-04-22 00:00:00" type="PERIO-test" provider="Prov1-test" status="Test"/>
+    <Recall id="5:PERIO" date="2012-05-22 00:00:00" type="PERIO-testdeleted" provider="Prov1-test" status="Test deleted"/>
+    <Recall id="6:PERIO" date="2012-04-22 00:00:00" type="PERIO-test" provider="Prov1-test" status="Test"/>
+    <Recall id="8:PROPHY" date="2002-05-22 00:00:00" type="PROPHY" provider="Prov1" status="Test"/>
+    <Recall id="9:PROPHY" date="2032-05-22 00:00:00" type="PROPHY" provider="Prov1" status="Test"/>
+  </Recalls>
+  <Recommendations/>
+  <Vehicles/>
+  <DentalTransactions>
+    <DentalTransaction id="130" date="2017-02-01" charge="0.0" provider="1" providerName="Ahn,Laura" type="0" category="Medical Care" code="92004" description="Comprehensive exam, New Patient" status="0" procedure="0" providerId=""/>
+    <DentalTransaction id="131" date="2015-07-03" charge="100.0" provider="1" providerName="Ahn,Laura" type="0" category="Medical Care" code="92340" description="Single Vision Spectacle Fitting" status="0" procedure="0" providerId="" invalid="true"/>
+    <DentalTransaction id="2726" date="2015-04-18" charge="45.0" provider="1" providerName="Ahn,Laura2" type="0" category="Medical Care" code="v2020" description="" status="0" procedure="0" providerId="" invalid="true"/>
+    <DentalTransaction id="969" date="2017-01-01" charge="99.0" provider="1" providerName="Peter,Gao" type="0" category="Medical Care deleted" code="v2020" description="" status="0" procedure="0" providerId=""/>
+    <DentalTransaction id="999" date="2017-01-01" charge="99.0" provider="1" providerName="Peter,Gao" type="0" category="Medical Care" code="v2020" description="" status="0" procedure="0" providerId=""/>
+  </DentalTransactions>
+</XMLRoot>

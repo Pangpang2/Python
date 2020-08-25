@@ -1,0 +1,1 @@
+<Transaction category="{{Category}}" charge="{{Revenue}}" code="{{CustomField1}}" date="{{VisitDate}}" description="{{Procedures}}" id="{{PracticeVisitID}}" provider="{{Provider}}" providerName="{{ProviderName}}"/>

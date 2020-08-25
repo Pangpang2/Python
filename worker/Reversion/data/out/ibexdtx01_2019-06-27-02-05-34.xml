@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>2.1</version>
+        <portion_date>2019-06-27T13:17:55.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <db_version>15.1.0</db_version>
+        <username>ibexdtx01</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Staff>
+<record><ID>FAKE_STAFF_1</ID><FirstName>TestFName</FirstName><LastName>TestLName</LastName><Speciality>Dentist</Speciality><Gender/><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>FAKE_STAFF_1</Code></record>
+</Staff>
+<PatientStaffLinks>
+<record><ID>PR1_1</ID><PatientID>0022</PatientID><StaffID>FAKE_STAFF_1</StaffID></record>
+</PatientStaffLinks>
+<Patients>
+    <record><StaffID>FAKE_STAFF_1</StaffID><Status>Active</Status><ID>0022</ID><AddressID>0022</AddressID><Gender>1</Gender><FirstVisitDate></FirstVisitDate><BirthDate>2018-01-31</BirthDate><LastName>2</LastName><FirstName>dfRevenue2</FirstName><LastMaintenanceDate></LastMaintenanceDate><LastVisitDate>2018-02-06T02:38:46-07:00</LastVisitDate></record>
+</Patients>
+<Addresses>
+<record><ID>0022</ID><State>Alaska</State><City>Palmer</City><Street>customer street no.0022</Street><ZipCode>0022</ZipCode><Country/></record>
+</Addresses>
+<Offices>
+<record><ID>FAKE_OFFICE</ID><OfficeName>IBEX Office</OfficeName><AddressID>0022</AddressID><FederalTaxID/><NationalProviderID/><PhoneNumber/></record>
+</Offices>
+<EMails>
+<record><ID>0022</ID><EMail>QAA01.Dental.o+dfRevenue2@d3one.com</EMail><OwnerName>dfRevenue2 2</OwnerName></record>
+</EMails>
+<PatientEMailLinks>
+<record><ID>0022</ID><PatientID>0022</PatientID><EMailID>0022</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+
+</insert>
+<update></update>
+<delete></delete>
+</udbf-3>

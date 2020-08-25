@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>Django Page</title>
+	</head>
+	<body>
+		<h1>Conference Management</h1>
+		<form method="post" action="/login_action/">
+			<input name="username" type="text" placeholder="username"> <br>
+			<input name= "password" type ="password" placeholder = "password"> <br>
+			{{ error }} <br>
+			<button id="btn" type="submit"> Log in</button>
+			{% csrf_token %}
+		</form>
+	</body>
+</html>

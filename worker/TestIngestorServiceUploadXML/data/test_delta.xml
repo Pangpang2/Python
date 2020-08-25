@@ -1,0 +1,30 @@
+<udbf-3>
+    <service_information>
+        <initial>0</initial>
+        <version>3.6</version>
+        <portion_date>2019-08-17T02:58:45.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <db_version>5.1</db_version>
+        <username>translator_initial</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Patients>
+<record><ID>D8</ID><FirstName>Demographic</FirstName><LastName>Delete</LastName><BirthDate>1984-05-15</BirthDate><Status>Active</Status><AddressID>59</AddressID><Gender>1</Gender><LastVisitDate/><LastMaintenanceDate/><FirstVisitDate>2018-06-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID/><ExtensibleNotes/><NoCorrespondence/></record>
+</Patients>
+<RecallTypes>
+<record><ID>D1</ID><RecallType>delta insert</RecallType><Description>delta insert</Description><Duration>10</Duration><Interval>12809</Interval><IntervalType></IntervalType></record>
+</RecallTypes>
+</insert>
+<update>
+<RecallTypes>
+<record><ID>1</ID><RecallType>test1 updated</RecallType><Description>updated description</Description><Duration>10</Duration><Interval>12809</Interval><IntervalType></IntervalType></record>
+</RecallTypes>
+<RecallRecallTypeLinks>
+<record><ID>R005:HYGIENE</ID><RecallID>R005</RecallID><RecallTypeID>3</RecallTypeID></record>
+<record><ID>R006:HYGIENE</ID><RecallID>R006</RecallID><RecallTypeID>D1</RecallTypeID></record>
+</RecallRecallTypeLinks>
+</update>
+<delete/>
+</udbf-3>

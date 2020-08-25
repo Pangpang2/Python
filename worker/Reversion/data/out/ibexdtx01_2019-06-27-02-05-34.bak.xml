@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<udbf-3>
+<service_information>
+<initial>1</initial><version>2.1</version><portion_date>2019-06-24T18:27:14.000</portion_date><upgrade_disabled>0</upgrade_disabled><pms_vendor>Dentrix</pms_vendor><db_version>15.1.0</db_version><username>dfcxaut0a3c66cb@d3one.com</username><selective_upload_level>0</selective_upload_level>
+</service_information>
+<insert>
+<Staff>
+<record><ID>FAKE_STAFF_1</ID><FirstName>TestFName</FirstName><LastName>TestLName</LastName><Speciality>Dentist</Speciality><Gender></Gender><LicenseNumber></LicenseNumber><BirthDate></BirthDate><EMail></EMail><NationalProviderID></NationalProviderID><StaffStatus>1</StaffStatus><Code>FAKE_STAFF_1</Code></record>
+</Staff>
+<PatientStaffLinks>
+<record><ID>PR1_1</ID><PatientID>1</PatientID><StaffID>FAKE_STAFF_1</StaffID></record>
+</PatientStaffLinks>
+<Patients>
+<record><ID>1</ID><FirstName>Active1</FirstName><LastName>Status1</LastName><BirthDate>1982-12-13</BirthDate><Status>Active</Status><AddressID>FAKE_ADDRESS</AddressID><Gender>0</Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate></FirstVisitDate><StaffID>FAKE_STAFF_1</StaffID><OfficeID>SINGLE_OFFICE</OfficeID><ExtensibleNotes></ExtensibleNotes></record>
+<record><ID>2</ID><FirstName>Active2</FirstName><LastName>Status2</LastName><BirthDate>1982-12-13</BirthDate><Status>Active</Status><AddressID>FAKE_ADDRESS</AddressID><Gender>0</Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate></FirstVisitDate><StaffID>FAKE_STAFF_1</StaffID><OfficeID>SINGLE_OFFICE</OfficeID><ExtensibleNotes></ExtensibleNotes></record>
+</Patients>
+<Addresses>
+<record><ID>FAKE_ADDRESS</ID><State>UT</State><City>Fakeyville</City><Street>1234 Easy Street</Street><ZipCode>84003</ZipCode><Country></Country></record>
+</Addresses>
+<Offices>
+<record><ID>SINGLE_OFFICE</ID><OfficeName>IBEX Office</OfficeName><AddressID>FAKE_ADDRESS</AddressID><FederalTaxID></FederalTaxID><NationalProviderID></NationalProviderID><PhoneNumber></PhoneNumber></record>
+</Offices>
+<EMails>
+<record><ID>FAKE_EMAIL</ID><EMail>rfPxCNgfS@d3one.com</EMail><OwnerName>FAKE_EMAIL_OWNER</OwnerName></record>
+</EMails>
+<PatientEMailLinks>
+<record><ID>FAKE_LINK</ID><PatientID>1</PatientID><EMailID>FAKE_EMAIL</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+<Appointments>
+<record><ID>1001</ID><PatientID>1</PatientID><StaffID>FAKE_STAFF_1</StaffID><OfficeID>SINGLE_OFFICE</OfficeID><AppointmentDateTime>2019-06-30T18:27:14.000</AppointmentDateTime><Duration>30</Duration><Amount></Amount><Status>new</Status><Noshow>0</Noshow><CreatedDate></CreatedDate><Facility/><Flag>0</Flag><Description>AppointmentCodes</Description><ConfirmedDate></ConfirmedDate></record>
+</Appointments>
+<Ledgers>
+<record><ID>10001</ID><AccountID>1_1_I1</AccountID><LedgerDateTime>2019-06-27T15:27:14.000</LedgerDateTime><Amount>100</Amount><Description>Charge 1</Description><LedgerType>C</LedgerType><Due></Due><Balance></Balance><StaffID>FAKE_STAFF_1</StaffID><Category>Diagnostic</Category><SubCategory></SubCategory><ProcedureID>FAKE_PROC_1</ProcedureID></record>
+<record><ID>10002</ID><AccountID>1_1_I1</AccountID><LedgerDateTime>2019-06-27T14:27:14.000</LedgerDateTime><Amount>200</Amount><Description>Charge 2</Description><LedgerType>C</LedgerType><Due></Due><Balance></Balance><StaffID>FAKE_STAFF_1</StaffID><Category>Diagnostic</Category><SubCategory></SubCategory><ProcedureID>FAKE_PROC_2</ProcedureID></record>
+<record><ID>10003</ID><AccountID>2_1_I1</AccountID><LedgerDateTime>2019-06-27T13:27:14.000</LedgerDateTime><Amount>310</Amount><Description>Charge 2</Description><LedgerType>C</LedgerType><Due></Due><Balance></Balance><StaffID>FAKE_STAFF_1</StaffID><Category>Diagnostic</Category><SubCategory></SubCategory><ProcedureID>FAKE_PROC_2</ProcedureID></record>
+<record><ID>10004</ID><AccountID>2_1_I1</AccountID><LedgerDateTime>2019-06-27T12:27:14.000</LedgerDateTime><Amount>320</Amount><Description>Charge 2</Description><LedgerType>C</LedgerType><Due></Due><Balance></Balance><StaffID>FAKE_STAFF_1</StaffID><Category>Diagnostic</Category><SubCategory></SubCategory><ProcedureID>FAKE_PROC_2</ProcedureID></record>
+</Ledgers>
+<Accounts>
+<record><ID>1_1_I1</ID><PatientResponsibleLinkID>1_1</PatientResponsibleLinkID><InsuranceContractID></InsuranceContractID><CurrentDue>279.45</CurrentDue><Over30>180.08</Over30><Over60>46.76</Over60><Over90>256.75</Over90><Balance>291.81</Balance><Total>1248.63</Total><NextPaymentDate></NextPaymentDate><NextPaymentAmount></NextPaymentAmount></record>
+<record><ID>2_1_I1</ID><PatientResponsibleLinkID>2_1</PatientResponsibleLinkID><InsuranceContractID></InsuranceContractID><CurrentDue>279.45</CurrentDue><Over30>180.08</Over30><Over60>46.76</Over60><Over90>256.75</Over90><Balance>291.81</Balance><Total>1248.63</Total><NextPaymentDate></NextPaymentDate><NextPaymentAmount></NextPaymentAmount></record>
+</Accounts>
+<PatientResponsibleLinks>
+<record><ID>1_1</ID><PatientID>1</PatientID><ResponsibleID>1</ResponsibleID></record>
+<record><ID>2_1</ID><PatientID>2</PatientID><ResponsibleID>1</ResponsibleID></record>
+</PatientResponsibleLinks>
+<Responsibles>
+<record><ID>1</ID><FirstName>Active1</FirstName><LastName>Status1</LastName><BirthDate>1967-03-06</BirthDate><AddressID>FAKE_ADDRESS</AddressID></record>
+</Responsibles>
+<Procedures>
+<record><ID>FAKE_PROC_1</ID><ProcedureCode>DFAKE_PROC_1</ProcedureCode><Description>IBEX Test Procedure - 1</Description><Duration>54</Duration><Amount>0</Amount></record>
+<record><ID>FAKE_PROC_2</ID><ProcedureCode>DFAKE_PROC_2</ProcedureCode><Description>IBEX Test Procedure - 2</Description><Duration>166</Duration><Amount>0</Amount></record>
+</Procedures>
+<CalendarBlocks>
+<record><ID>1</ID><ScheduledDateTime>2019-05-11T08:00:00.000</ScheduledDateTime><Title>Holiday</Title><Duration>555</Duration><Notes>Memorial Day</Notes><Facility>Alex G Bachoura: Consult</Facility></record>
+<record><ID>2</ID><ScheduledDateTime>2019-04-30T08:00:00.000</ScheduledDateTime><Title>Holiday</Title><Duration>555</Duration><Notes>Memorial Day</Notes><Facility>Alex G Bachoura: Consult</Facility></record>
+<record><ID>3</ID><ScheduledDateTime>2019-05-04T08:00:00.000</ScheduledDateTime><Title>Holiday</Title><Duration>555</Duration><Notes>Memorial Day</Notes><Facility>Alex G Bachoura: Consult</Facility></record>
+<record><ID>4</ID><ScheduledDateTime>2019-05-01T08:00:00.000</ScheduledDateTime><Title>Test</Title><Duration>555</Duration><Notes>Memorial Day</Notes><Facility>Alex G Bachoura: Consult</Facility></record>
+</CalendarBlocks>
+</insert>
+<update></update>
+<delete></delete>
+</udbf-3>

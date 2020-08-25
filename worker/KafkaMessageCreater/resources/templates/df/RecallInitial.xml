@@ -1,0 +1,2 @@
+<Recall id="{{BusinessRecallDueDateID}}" date="{{DATE}}" provider="{{Provider}}" type="{{TYPE}}" status="{{STATUS}}"
+        recallTypeID="{{RecallTypeID}}" recallTypeDescription="{{RecallTypeDescription}}" />

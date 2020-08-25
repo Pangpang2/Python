@@ -1,0 +1,3 @@
+<Appointment id="{{BusinessAppointmentID}}" providerId="{{ProviderID}}" provider="{{Provider}}" providerName="{{ProviderName}}"
+             facility="{{Facility}}" date="{{ScheduledDate}}" duration="{{Duration}}" description="{{Services}}" type="{{Type}}"
+             confirmed="{{Status}}" confirmedDate="{{ExternalConfirmedTime}}"/>

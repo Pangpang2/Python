@@ -1,0 +1,20 @@
+<DemandForce licenseKey="91D2AF8A-56C7-FE29-301B-C2E44B4C656D" scope="full" syncClient="IBExtractor">
+<Business>
+<Extract managementSystemName="Dentrix" extractDateTime="2019-07-25T18:58:10">
+<Param/>
+</Extract>
+<Firmographics/>
+<DFLinkSettings/>
+<Customer id="1" provider="1" firstVisit="2015-06-28T00:00:00" lastVisit="2020-07-18T00:00:00" lastMaintenanceDate="2019-07-18T00:00:00" defaultLocationId="1">
+<Demographics firstName="Gaby" lastName="Portillo" gender="2" birthday="1989-07-28T00:00:00" noCorrespondence="false"/>
+<RelatedPerson targetCustomerId="C"/>
+</Customer>
+<Customer id="C" isNonCustomer="1">
+<Demographics firstName="Amy" lastName="Majano" gender="1" birthday="1996-07-28T00:00:00" address1="4710 Mayfair" city="Bellaire" state="TX" zip="77401" noCorrespondence="false"/>
+<Appointment id="400" provider="May" providerName="John La1" providerId="GOP" facility="DR CHAD 3" date="2020-05-07T02:01:09" duration="30" code="D2322" description="Test1 Description">
+<ApptCode code="D8670" description="apptTest" externalCode="D8670" id="221:1"/>
+</Appointment>
+</Customer>
+<Provider id="1" firstName="Alex" lastName="Facio," bookingName="Alex Facio," code="1" active="1" type="Dentist" identificationNumber="555D"/>
+</Business>
+</DemandForce>

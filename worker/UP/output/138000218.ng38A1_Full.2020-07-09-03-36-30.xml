@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><DemandForce componentUrl="https://secure.demandforce.com/dflinkqa/setup/" dFAPI="d3rowapi.dll" dFAPIVersion="3.0.55.0" dFLinkVersion="3.7.73" dFUpdateVersion="3.0.5.0" dataLocation="C:\ROWriterTest\roWrite\3\ROWriter.mdb" licenseKey="EF83EAAB-2D7D-3A0F-7436-DC6BF76DDED1" scope="full" systemName="D3ONE-ROWRITER2" systemOS="Microsoft Windows XP Professional Service Pack 1 (Build 2600)" systemUser="vm">
+<Business>
+<Extract extractDateTime="2020-07-09T03:36:30-08:00" managementSystemName="R.O. Writer" managementSystemVersion="All" processingTime="255"></Extract>
+<Customer id="333">
+    <Demographics firstName="Test3"/>
+    <Vehicle id="23" license="BIM9346" licenseState="GA Test" make="MAZDA_22" model="MIATA" vin="JM1NA3535V0721350" year="1997">
+        <Appointment id="400"  provider="May" providerName="John La1" providerId="GOP" facility="DR CHAD 3" date="2020-07-20T03:36:30" duration="30" code="D2322" description="Test1 Description">    
+            <ApptCode code="D8670" description="apptTest" externalCode="D8670" id="221:1"/>
+        </Appointment>
+        <Appointment id="500"  provider="May" providerName="John La1" providerId="GOP" facility="DR CHAD 3" date="2020-07-20T03:36:30" duration="30" code="D2322" description="Test1 Description">
+            <ApptCode code="D9670" description="apptTest" externalCode="D9670" id="222:1"/>
+        </Appointment>
+        <Transaction category="Medical Caret" charge="90.0" code="v2020" date="2019-03-01T14:02:00-07:00" id="999" provider="1" providerName="Peter,Gao"/>
+        <Recommendation id="test31" date="2019-03-06T00:00:00-08:00" description="NEEDS REAR TIRES REPLACED Test" code="TIR0"/>
+    </Vehicle>
+    <Vehicle id="24" license="BIM9346" licenseState="GA Test" make="MAZDA_22" model="MIATA" vin="JM1NA3535V0721350" year="1997">
+    </Vehicle>
+  </Customer>
+</Business>
+</DemandForce>

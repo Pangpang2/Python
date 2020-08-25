@@ -1,0 +1,71 @@
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>2.1</version>
+        <portion_date>2019-06-27T13:17:55.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <db_version>15.1.0</db_version>
+        <username>ibexdtx01</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Staff>
+<record><ID>FAKE_STAFF_1</ID><FirstName>TestFName</FirstName><LastName>TestLName</LastName><Speciality>Dentist</Speciality><Gender>0</Gender><LicenseNumber/><BirthDate/><EMail/><NationalProviderID/><StaffStatus>1</StaffStatus><Code>FAKE_STAFF_1</Code></record>
+</Staff>
+<Patients>
+<record><ID>1</ID><FirstName>Active1</FirstName><LastName>Status1</LastName><BirthDate>1982-12-13</BirthDate><Status>Active</Status><AddressID>1</AddressID><Gender/><LastVisitDate/><LastMaintenanceDate/><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>2</ID><FirstName>Active2</FirstName><LastName>Status2</LastName><BirthDate>1982-12-13</BirthDate><Status>Active</Status><AddressID>2</AddressID><Gender/><LastVisitDate/><LastMaintenanceDate/><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+</Patients>
+<Addresses>
+<record><ID>1</ID><State>UT</State><City>Fakeyville</City><Street>1234 Easy Street</Street><ZipCode>84003</ZipCode><Country/></record>
+<record><ID>2</ID><State>UT</State><City>Fakeyville</City><Street>1234 Easy Street</Street><ZipCode>84003</ZipCode><Country/></record>
+</Addresses>
+<Offices>
+<record><ID>FAKE_OFFICE</ID><OfficeName>IBEX Office</OfficeName><AddressID>0022</AddressID><FederalTaxID/><NationalProviderID/><PhoneNumber/></record>
+</Offices>
+<EMails>
+<record><ID>rfPxCNgfS@d3one.com</ID><EMail>rfPxCNgfS@d3one.com</EMail><OwnerName>Active1 Status1</OwnerName></record>
+</EMails>
+<PatientEMailLinks>
+<record><ID>1</ID><PatientID>1</PatientID><EMailID>rfPxCNgfS@d3one.com</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+<Appointments>
+<record><ID>1001</ID><PatientID>1</PatientID><StaffID>FAKE_STAFF_1</StaffID><OfficeID>FAKE_OFFICE</OfficeID>
+<AppointmentDateTime>2019-07-03T18:27:14.000</AppointmentDateTime>
+<Duration>30</Duration>
+<Amount/>
+<Status>new</Status>
+<Noshow>0</Noshow>
+<CreatedDate/>
+<Facility/>
+<Flag>0</Flag>
+<Description>AppointmentCodes</Description>
+<ConfirmedDate/>
+</record>
+</Appointments>
+<Accounts>
+<record><ID>1_1</ID><PatientResponsibleLinkID>1_1</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>2_1</ID><PatientResponsibleLinkID>2_1</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+</Accounts>
+<PatientResponsibleLinks>
+<record><ID>1_1</ID><PatientID>1</PatientID><ResponsibleID>1</ResponsibleID></record>
+<record><ID>2_1</ID><PatientID>2</PatientID><ResponsibleID>1</ResponsibleID></record>
+</PatientResponsibleLinks>
+<Responsibles>
+<record><ID>1</ID><FirstName>Active1</FirstName><LastName>Status1</LastName><BirthDate>1982-12-13</BirthDate><AddressID/></record>
+</Responsibles>
+<Procedures>
+<record><ID>1001_125</ID><ProcedureCode>D4175</ProcedureCode><Description>ANALGESIA (inhalation of nitrous oxide)</Description><Duration>30</Duration><Amount>0</Amount></record>
+<record><ID>10001</ID><ProcedureCode>DFAKE_PROC_1</ProcedureCode><Description>Charge 1</Description><Duration/><Amount/></record>
+<record><ID>10002</ID><ProcedureCode>DFAKE_PROC_2</ProcedureCode><Description>Charge 2</Description><Duration/><Amount/></record>
+<record><ID>10004</ID><ProcedureCode>DFAKE_PROC_2</ProcedureCode><Description>Charge 2</Description><Duration/><Amount/></record>
+<record><ID>10003</ID><ProcedureCode>DFAKE_PROC_2</ProcedureCode><Description>Charge 2</Description><Duration/><Amount/></record>
+</Procedures>
+<AppointmentProcedureLinks>
+<record><ID>1001_1001_125</ID><AppointmentID>1001</AppointmentID><ProcedureID>1001_125</ProcedureID></record>
+</AppointmentProcedureLinks>
+</insert>
+<update/>
+<delete/>
+</udbf-3>

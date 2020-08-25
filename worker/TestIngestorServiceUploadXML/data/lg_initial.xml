@@ -1,0 +1,201 @@
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>3.5</version>
+        <portion_date>2019-08-16T02:58:45.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Lighthouse</pms_vendor>
+        <username>translator_initial</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Staff>
+<record><ID>0001</ID><FirstName>Demand</FirstName><LastName>Force</LastName><Speciality>Dentist</Speciality><Gender></Gender><LicenseNumber></LicenseNumber><BirthDate></BirthDate><EMail></EMail><NationalProviderID>1234567890</NationalProviderID><StaffStatus>1</StaffStatus><Code>0001</Code></record>
+<record><ID>0002</ID><FirstName>For</FirstName><LastName>DeltaUpdate</LastName><Speciality>Hygenist</Speciality><Gender></Gender><LicenseNumber></LicenseNumber><BirthDate></BirthDate><EMail></EMail><NationalProviderID>1234567891</NationalProviderID><StaffStatus>1</StaffStatus><Code>0002</Code></record>
+<record><ID>0003</ID><FirstName>For</FirstName><LastName>DeltaDelete</LastName><Speciality>Xray Technician</Speciality><Gender></Gender><LicenseNumber></LicenseNumber><BirthDate></BirthDate><EMail></EMail><NationalProviderID>1234567892</NationalProviderID><StaffStatus>1</StaffStatus><Code>0003</Code></record>
+</Staff>
+<Offices>
+<record><ID>-PR-</ID><OfficeName>KFC Dental</OfficeName><AddressID>57</AddressID><FederalTaxID></FederalTaxID><NationalProviderID></NationalProviderID><PhoneNumber></PhoneNumber></record>
+</Offices>
+<Responsibles>
+<record><ID>1</ID><FirstName>Kevin</FirstName><LastName>Coakley</LastName><BirthDate>1987-05-11</BirthDate><AddressID>57</AddressID></record>
+</Responsibles>
+<Patients>
+<record><ID>1</ID><FirstName>Full</FirstName><LastName>Insert</LastName><BirthDate>1987-05-11</BirthDate><Status>Active</Status><AddressID>57</AddressID><Gender>2</Gender><LastVisitDate>2018-05-08</LastVisitDate><LastMaintenanceDate>2018-05-08</LastMaintenanceDate><FirstVisitDate>2018-05-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+<record><ID>2</ID><FirstName>Ignore</FirstName><LastName>NonPatient</LastName><BirthDate>1985-05-11</BirthDate><Status>NonPatient</Status><AddressID>77</AddressID><Gender>1</Gender><LastVisitDate>2018-05-08</LastVisitDate><LastMaintenanceDate>2018-05-08</LastMaintenanceDate><FirstVisitDate>2018-05-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID></OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+<record><ID>3</ID><FirstName>Ignore</FirstName><LastName>Archived</LastName><BirthDate>1985-05-11</BirthDate><Status>archived</Status><AddressID>77</AddressID><Gender>1</Gender><LastVisitDate>2018-05-08</LastVisitDate><LastMaintenanceDate>2018-05-08</LastMaintenanceDate><FirstVisitDate>2018-05-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID></OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+<record><ID>4</ID><FirstName>Sr.Bill</FirstName><LastName>Nye</LastName><BirthDate>1950-01-01</BirthDate><Status>Active</Status><AddressID>58</AddressID><Gender>2</Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate>2018-06-08</FirstVisitDate><StaffID>0002</StaffID><OfficeID>-PR4-</OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+<record><ID>5</ID><FirstName>Marge</FirstName><LastName>Simpson</LastName><BirthDate>1957-01-01</BirthDate><Status>Active</Status><AddressID>56</AddressID><Gender>1</Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate>2018-05-09</FirstVisitDate><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+</Patients>
+<Patients>
+<record><ID>6</ID><FirstName>For</FirstName><LastName>DeltaUpdate</LastName><BirthDate>1989-06-11</BirthDate><Status>Active</Status><AddressID>57</AddressID><Gender>2</Gender><LastVisitDate>2018-05-08</LastVisitDate><LastMaintenanceDate>2018-05-08</LastMaintenanceDate><FirstVisitDate>2018-05-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+<record><ID>7</ID><FirstName>For</FirstName><LastName>DeltaDelte</LastName><BirthDate>1989-05-11</BirthDate><Status>Active</Status><AddressID>57</AddressID><Gender>2</Gender><LastVisitDate>2018-05-08</LastVisitDate><LastMaintenanceDate>2018-05-08</LastMaintenanceDate><FirstVisitDate>2018-05-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+</Patients>
+<Patients>
+    <record><ID>8</ID><FirstName>Demographic</FirstName><LastName>Delete</LastName><BirthDate>1984-05-15</BirthDate><Status>Active</Status><AddressID>59</AddressID><Gender>1</Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate>2018-06-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID></OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+</Patients>
+<Patients>
+    <record><ID>16</ID><FirstName>Responsible</FirstName>Contact<LastName></LastName><BirthDate>2004-05-15</BirthDate><Status>Active</Status><AddressID></AddressID><Gender>1</Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate>2018-06-08</FirstVisitDate><StaffID>0001</StaffID><OfficeID></OfficeID><ExtensibleNotes></ExtensibleNotes><NoCorrespondence></NoCorrespondence></record>
+</Patients>
+<Patients>
+<record><ID>9</ID><FirstName>Patient</FirstName><LastName>Alert</LastName><BirthDate>1968-04-28</BirthDate><Status>Active</Status><AddressID>R_55801</AddressID><Gender></Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate></FirstVisitDate><StaffID></StaffID><OfficeID></OfficeID><ExtensibleNotes></ExtensibleNotes></record>
+<record><ID>10</ID><FirstName>Alert</FirstName><LastName>Update</LastName><BirthDate>1986-04-28</BirthDate><Status>Active</Status><AddressID>R_55801</AddressID><Gender></Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate></FirstVisitDate><StaffID></StaffID><OfficeID></OfficeID><ExtensibleNotes></ExtensibleNotes></record>
+<record><ID>11</ID><FirstName>Alert</FirstName><LastName>Delete</LastName><BirthDate>1988-04-28</BirthDate><Status>Active</Status><AddressID>R_55801</AddressID><Gender></Gender><LastVisitDate></LastVisitDate><LastMaintenanceDate></LastMaintenanceDate><FirstVisitDate></FirstVisitDate><StaffID></StaffID><OfficeID></OfficeID><ExtensibleNotes></ExtensibleNotes></record>
+</Patients>
+<InsuranceContracts>
+<record><ID>1_1_I1</ID><FinancialClass>4: DSO</FinancialClass><Carrier>PMI HMO</Carrier><IID>985</IID><InsurancePlan/>Metlife<InsurancePlanType>1</InsurancePlanType><Rank>1</Rank><DentalBenefit>100</DentalBenefit><DentalUsed>0</DentalUsed><OrthoBenefit/><OrthoUsed>0</OrthoUsed><BenefitMonth>1</BenefitMonth><EmployerID/></record>
+</InsuranceContracts>
+<Accounts>
+<record><ID>1_1</ID><PatientResponsibleLinkID>1_1</PatientResponsibleLinkID><InsuranceContractID>1_1_I1</InsuranceContractID><CurrentDue>0</CurrentDue><Over30>0</Over30><Over60>0</Over60><Over90>0</Over90><Balance>0</Balance><Total>0</Total><NextPaymentDate></NextPaymentDate><NextPaymentAmount></NextPaymentAmount></record>
+</Accounts>
+<Ledgers>
+<record><ID>1</ID><AccountID>1_1</AccountID><LedgerDateTime>2019-05-08T00:09:01.000</LedgerDateTime><Amount>140.01</Amount><Description>Full Insert</Description><LedgerType>C</LedgerType><Due>100</Due><Balance>50</Balance><StaffID>0001</StaffID><Category>Preventive</Category><SubCategory></SubCategory><ProcedureID>CTMJ</ProcedureID></record>
+<record><ID>4</ID><AccountID>1_1</AccountID><LedgerDateTime>2019-05-08T00:00:01.000</LedgerDateTime><Amount>140.01</Amount><Description>Ledger Type P</Description><LedgerType>P</LedgerType><Due>100</Due><Balance>50</Balance><StaffID>0001</StaffID><Category>Preventive</Category><SubCategory></SubCategory><ProcedureID>CTMJ</ProcedureID></record>
+<record><ID>5</ID><AccountID>1_1</AccountID><LedgerDateTime>2019-05-08T00:00:01.000</LedgerDateTime><Amount>140.01</Amount><Description>Ledger Type A</Description><LedgerType>A</LedgerType><Due>100</Due><Balance>50</Balance><StaffID>0001</StaffID><Category>Preventive</Category><SubCategory></SubCategory><ProcedureID>CTMJ</ProcedureID></record>
+<record><ID>6</ID><AccountID>1_1</AccountID><LedgerDateTime>2019-05-08T00:00:01.000</LedgerDateTime><Amount>140.01</Amount><Description>Ledger Type I</Description><LedgerType>I</LedgerType><Due>100</Due><Balance>50</Balance><StaffID>0001</StaffID><Category>Preventive</Category><SubCategory></SubCategory><ProcedureID>CTMJ</ProcedureID></record>
+<record><ID>7</ID><AccountID>1_1</AccountID><LedgerDateTime>2019-05-08T00:00:01.000</LedgerDateTime><Amount>140.01</Amount><Description>Ledger Type N</Description><LedgerType>N</LedgerType><Due>100</Due><Balance>50</Balance><StaffID>0001</StaffID><Category>Preventive</Category><SubCategory></SubCategory><ProcedureID>CTMJ</ProcedureID></record>
+</Ledgers>
+<Ledgers>
+<record><ID>2</ID><AccountID>1_1</AccountID><LedgerDateTime>2019-06-09T10:00:01.000</LedgerDateTime><Amount>140.01</Amount><Description>For Delta Update</Description><LedgerType>C</LedgerType><Due>100</Due><Balance>50</Balance><StaffID>0001</StaffID><Category>Preventive</Category><SubCategory></SubCategory><ProcedureID>CTMJ</ProcedureID></record>
+<record><ID>3</ID><AccountID>1_1</AccountID><LedgerDateTime>2019-07-10T11:00:01.000</LedgerDateTime><Amount>140.01</Amount><Description>For Delta Delete</Description><LedgerType>C</LedgerType><Due>100</Due><Balance>50</Balance><StaffID>0001</StaffID><Category>Preventive</Category><SubCategory></SubCategory><ProcedureID>CTMJ</ProcedureID></record>
+</Ledgers>
+<PatientResponsibleLinks>
+<record><ID>1_1</ID><PatientID>1</PatientID><ResponsibleID>1</ResponsibleID></record>
+</PatientResponsibleLinks>
+<PatientResponsibleLinks>
+<record><ID>7_1</ID><PatientID>7</PatientID><ResponsibleID>1</ResponsibleID></record>
+<record><ID>16_1</ID><PatientID>16</PatientID><ResponsibleID>1</ResponsibleID></record>
+</PatientResponsibleLinks>
+<ResponsiblePhoneLinks>
+    <record><ID>M_1</ID><ResponsibleID>1</ResponsibleID><PhoneID>PC_101</PhoneID><PhoneType>3</PhoneType></record>
+    <record><ID>M_2</ID><ResponsibleID>1</ResponsibleID><PhoneID>PH_101</PhoneID><PhoneType>2</PhoneType></record>
+</ResponsiblePhoneLinks>
+<Procedures>
+<record><ID>CTMJ</ID><ProcedureCode>CTMJ</ProcedureCode><Description>Consult TMJ</Description><Duration></Duration><Amount></Amount></record>
+<record><ID>CWIS</ID><ProcedureCode>CWIS</ProcedureCode><Description>Consult Wisdom Th</Description><Duration></Duration><Amount></Amount></record>
+<record><ID>FDUP</ID><ProcedureCode>FDUP</ProcedureCode><Description>For Delta Update</Description><Duration></Duration><Amount></Amount></record>
+<record><ID>FDDE</ID><ProcedureCode>FDDE</ProcedureCode><Description>For Delta Delete</Description><Duration></Duration><Amount></Amount></record>
+</Procedures>
+<ResponsiblePhoneLinks>
+    <record><ID>M_3</ID><ResponsibleID>1</ResponsibleID><PhoneID>PW_101</PhoneID><PhoneType>1</PhoneType></record>
+    <record><ID>M_4</ID><ResponsibleID>1</ResponsibleID><PhoneID>PH_55801</PhoneID><PhoneType>0</PhoneType></record>
+</ResponsiblePhoneLinks>
+<ResponsibleEMailLinks>
+<record><ID>1</ID><ResponsibleID>1</ResponsibleID><EMailID>4</EMailID><EMailType>0</EMailType></record>
+</ResponsibleEMailLinks>
+<AppointmentProcedureLinks>
+<record><ID>1_CTMJ</ID><AppointmentID>1</AppointmentID><ProcedureID>CTMJ</ProcedureID></record>
+<record><ID>1_CWIS</ID><AppointmentID>1</AppointmentID><ProcedureID>CWIS</ProcedureID></record>
+<record><ID>4_FDUP</ID><AppointmentID>4</AppointmentID><ProcedureID>FDUP</ProcedureID></record>
+<record><ID>4_FDDE</ID><AppointmentID>4</AppointmentID><ProcedureID>FDDE</ProcedureID></record>
+</AppointmentProcedureLinks>
+<CalendarBlocks>
+<record><ID>1:New-CalendarBlock:OP01</ID><ScheduledDateTime>2019-06-28T07:00:00.000</ScheduledDateTime><Title>New Year</Title><Duration>480</Duration><Notes>Office Closure</Notes><Facility>OP01</Facility></record>
+</CalendarBlocks>
+<CalendarBlocks>
+<record><ID>2019NewYear</ID><ScheduledDateTime>2019-06-28T07:00:00.000</ScheduledDateTime><Title>New Year</Title><Duration>480</Duration><Notes>Office Closure</Notes><Facility>OP01</Facility></record>
+</CalendarBlocks>
+<Addresses>
+<record><ID>10</ID><State>CA</State><City>San Francisco</City><Street>600 Harrison Street;601</Street><ZipCode>92801</ZipCode><Country></Country></record>
+</Addresses>
+<Addresses>
+<record><ID>56</ID><State>CA</State><City>San Francisco</City><Street>742 Evergreen Terrace</Street><ZipCode>94107</ZipCode><Country></Country></record>
+<record><ID>57</ID><State>CA</State><City>San Francisco</City><Street>600 Harrison Street;601</Street><ZipCode>94107</ZipCode><Country></Country></record>
+<record><ID>58</ID><State>CA</State><City>San Francisco</City><Street>123 Nye Street;123</Street><ZipCode>94107</ZipCode><Country></Country></record>
+</Addresses>
+<Addresses>
+    <record><ID>59</ID><State>CA</State><City>Los Angles</City><Street>59 Nye Street;123</Street><ZipCode>94159</ZipCode><Country></Country></record>
+</Addresses>
+<Phones>
+<record><ID>PH</ID><PhoneNumber>XXX98XXX31</PhoneNumber></record>
+<record><ID>PW</ID><PhoneNumber>2XX3XX5XXX</PhoneNumber></record>
+<record><ID>PC</ID><PhoneNumber>ABCD13XXX2</PhoneNumber></record>
+<record><ID>PB</ID><PhoneNumber>XXXX6ABCD5</PhoneNumber></record>
+<record><ID>PA</ID><PhoneNumber>ABCD71DCBA</PhoneNumber></record>
+</Phones>
+<Phones>
+<record><ID>PH_101</ID><PhoneNumber>XXX98XXX31</PhoneNumber></record>
+<record><ID>PW_101</ID><PhoneNumber>2XX3XX5XXX</PhoneNumber></record>
+<record><ID>PC_101</ID><PhoneNumber>ABCD13XXX2</PhoneNumber></record>
+<record><ID>PH_55801</ID><PhoneNumber>XXXX6ABCD5</PhoneNumber></record>
+</Phones>
+<Phones>
+<record><ID>PD</ID><PhoneNumber>AAA98XXX31</PhoneNumber></record>
+<record><ID>PE</ID><PhoneNumber>2XX3XX5BBB</PhoneNumber></record>
+<record><ID>PF</ID><PhoneNumber>ABCD13CCC2</PhoneNumber></record>
+<record><ID>PG</ID><PhoneNumber>EEEE6ABCD5</PhoneNumber></record>
+</Phones>
+<PatientPhoneLinks>
+<record><ID>PH_1</ID><PatientID>1</PatientID><PhoneID>PH</PhoneID><PhoneType>0</PhoneType></record>
+<record><ID>PW_1</ID><PatientID>1</PatientID><PhoneID>PW</PhoneID><PhoneType>1</PhoneType></record>
+<record><ID>PB_1</ID><PatientID>1</PatientID><PhoneID>PB</PhoneID><PhoneType>2</PhoneType></record>
+<record><ID>PC_1</ID><PatientID>1</PatientID><PhoneID>PC</PhoneID><PhoneType>3</PhoneType></record>
+<record><ID>PA_4</ID><PatientID>4</PatientID><PhoneID>PA</PhoneID><PhoneType>3</PhoneType></record>
+<record><ID>PH_4</ID><PatientID>4</PatientID><PhoneID>PH</PhoneID><PhoneType>0</PhoneType></record>
+<record><ID>PW_4</ID><PatientID>4</PatientID><PhoneID>PW</PhoneID><PhoneType>1</PhoneType></record>
+<record><ID>PB_4</ID><PatientID>4</PatientID><PhoneID>PB</PhoneID><PhoneType>2</PhoneType></record>
+<record><ID>PA_5</ID><PatientID>5</PatientID><PhoneID>PA</PhoneID><PhoneType>3</PhoneType></record>
+<record><ID>PH_5</ID><PatientID>5</PatientID><PhoneID>PH</PhoneID><PhoneType>0</PhoneType></record>
+<record><ID>PW_5</ID><PatientID>5</PatientID><PhoneID>PW</PhoneID><PhoneType>1</PhoneType></record>
+<record><ID>PB_5</ID><PatientID>5</PatientID><PhoneID>PB</PhoneID><PhoneType>2</PhoneType></record>
+</PatientPhoneLinks>
+<PatientPhoneLinks>
+<record><ID>PD_8</ID><PatientID>8</PatientID><PhoneID>PD</PhoneID><PhoneType>0</PhoneType></record>
+<record><ID>PE_8</ID><PatientID>8</PatientID><PhoneID>PE</PhoneID><PhoneType>1</PhoneType></record>
+<record><ID>PF_8</ID><PatientID>8</PatientID><PhoneID>PF</PhoneID><PhoneType>2</PhoneType></record>
+<record><ID>PG_8</ID><PatientID>8</PatientID><PhoneID>PG</PhoneID><PhoneType>3</PhoneType></record>
+</PatientPhoneLinks>
+<EMails>
+<record><ID>1</ID><EMail>test_R403500@demandforce.com</EMail><OwnerName></OwnerName></record>
+<record><ID>2</ID><EMail>test_R408200@demandforce.com</EMail><OwnerName></OwnerName></record>
+<record><ID>3</ID><EMail>test_R405500@demandforce.com</EMail><OwnerName></OwnerName></record>
+<record><ID>4</ID><EMail>test_R418600@demandforce.com</EMail><OwnerName></OwnerName></record>
+</EMails>
+<EMails>
+<record><ID>5</ID><EMail>test_R443300@demandforce.com</EMail><OwnerName></OwnerName></record>
+</EMails>
+<PatientEMailLinks>
+<record><ID>1_1</ID><PatientID>1</PatientID><EMailID>1</EMailID><EMailType>1</EMailType></record>
+<record><ID>4_2</ID><PatientID>4</PatientID><EMailID>2</EMailID><EMailType>1</EMailType></record>
+<record><ID>5_3</ID><PatientID>5</PatientID><EMailID>3</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+<PatientEMailLinks>
+<record><ID>8_5</ID><PatientID>8</PatientID><EMailID>5</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+<Recalls>
+<record><ID>N01</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription></record>
+<record><ID>N02</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID></AppointmentID></record>
+<record><ID>N03</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID>1000000</AppointmentID></record>
+<record><ID>N04</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription></record>
+<record><ID>N05</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID></AppointmentID></record>
+<record><ID>N06</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID>1000000</AppointmentID></record>
+
+<record><ID>001</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-12-19</RecallDate><StaffID>0001</StaffID><Status>1</Status><RecallType>PROPHY</RecallType><RecallTypeID>1</RecallTypeID><RecallTypeDescription>Weekly consultant</RecallTypeDescription><AppointmentID>1</AppointmentID></record>
+<record><ID>002</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>2</AppointmentID></record>
+<record><ID>003</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>2</AppointmentID></record>
+<record><ID>004</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-19</RecallDate><StaffID>0001</StaffID><Status>2</Status><RecallType>ForDeltaUpdate</RecallType><RecallTypeID>2</RecallTypeID><RecallTypeDescription>For Delta update</RecallTypeDescription><AppointmentID>2</AppointmentID></record>
+<record><ID>005</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-18</RecallDate><StaffID>0001</StaffID><Status>3</Status><RecallType>ForDeltaDelete</RecallType><RecallTypeID>3</RecallTypeID><RecallTypeDescription>For Delta delete</RecallTypeDescription><AppointmentID>2</AppointmentID></record>
+<record><ID>006</ID><PatientID>1</PatientID><OfficeID>-PR-</OfficeID><RecallDate>2019-11-18</RecallDate><StaffID>0001</StaffID><Status>3</Status><RecallType>ForDeltaDelete</RecallType><RecallTypeID>3</RecallTypeID><RecallTypeDescription>For Delta delete</RecallTypeDescription><AppointmentID>2</AppointmentID></record>
+</Recalls>
+<Appointments>
+<record><ID>1</ID><PatientID>1</PatientID><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><AppointmentDateTime>2019-11-21T08:00:00.000</AppointmentDateTime><Duration>50</Duration><Amount>100</Amount><Status>confirmed</Status><Noshow>0</Noshow><CreatedDate>2018-05-08</CreatedDate><Facility>OP01</Facility><Flag>0</Flag><Description>New appointment for Patient 1</Description><ConfirmedDate>2015-07-27</ConfirmedDate><AppointmentType>0</AppointmentType></record>
+<record><ID>2</ID><PatientID>1</PatientID><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><AppointmentDateTime>2019-12-21T08:00:00.000</AppointmentDateTime><Duration>50</Duration><Amount>100</Amount><Status>confirmed</Status><Noshow>0</Noshow><CreatedDate>2018-05-08</CreatedDate><Facility>OP01</Facility><Flag>0</Flag><Description>For delta update</Description><ConfirmedDate>2015-07-27</ConfirmedDate><AppointmentType>0</AppointmentType></record>
+<record><ID>3</ID><PatientID>1</PatientID><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><AppointmentDateTime>2020-01-21T08:00:00.000</AppointmentDateTime><Duration>50</Duration><Amount>100</Amount><Status>confirmed</Status><Noshow>0</Noshow><CreatedDate>2018-05-08</CreatedDate><Facility>OP01</Facility><Flag>0</Flag><Description>For delta insert</Description><ConfirmedDate>2015-07-27</ConfirmedDate><AppointmentType>0</AppointmentType></record>
+<record><ID>4</ID><PatientID>1</PatientID><StaffID>0001</StaffID><OfficeID>-PR-</OfficeID><AppointmentDateTime>2020-01-21T08:00:00.000</AppointmentDateTime><Duration>50</Duration><Amount>100</Amount><Status>confirmed</Status><Noshow>0</Noshow><CreatedDate>2018-05-08</CreatedDate><Facility>OP01</Facility><Flag>0</Flag><Description>For appt code</Description><ConfirmedDate>2015-07-27</ConfirmedDate><AppointmentType>0</AppointmentType></record>
+</Appointments>
+<Alerts>
+<record><ID>initial</ID><StartDate>2019-11-11</StartDate><EndDate>2019-12-12</EndDate><Description>Aspirin</Description></record>
+</Alerts>
+<Alerts>
+<record><ID>delta_update</ID><StartDate>2019-12-12</StartDate><EndDate>2020-02-02</EndDate><Description>36 INLAY PREP</Description></record>
+<record><ID>delta_delete</ID><StartDate>2019-11-10</StartDate><EndDate>2020-01-02</EndDate><Description>NO ARDRENALINE</Description></record>
+</Alerts>
+<PatientAlertLinks>
+<record><ID>9_initial</ID><PatientID>9</PatientID><AlertID>initial</AlertID></record>
+<record><ID>10_delta_update</ID><PatientID>10</PatientID><AlertID>delta_update</AlertID></record>
+<record><ID>11_delta_delete</ID><PatientID>11</PatientID><AlertID>delta_delete</AlertID></record>
+</PatientAlertLinks>
+</insert>
+<update/>
+<delete/>
+</udbf-3>

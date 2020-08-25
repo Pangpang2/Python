@@ -1,0 +1,76 @@
+<udbf-3>
+    <service_information>
+        <initial>1</initial>
+        <version>2.1</version>
+        <portion_date>2019-06-27T13:17:55.000</portion_date>
+        <upgrade_disabled>0</upgrade_disabled>
+        <pms_vendor>Dentrix</pms_vendor>
+        <db_version>15.1.0</db_version>
+        <username>ibexdtx01</username>
+        <selective_upload_level>0</selective_upload_level>
+    </service_information>
+<insert>
+<Staff>
+</Staff>
+<Patients>
+<record><ID>0001</ID><FirstName>01Opt_in_T_A</FirstName><LastName>01Opt_in_E_A</LastName><BirthDate>1989-01-02</BirthDate><Status>Active</Status><AddressID>0001</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+<record><ID>0002</ID><FirstName>02Opt_in_T_A</FirstName><LastName>02Opt_in_E_A</LastName><BirthDate>1989-01-03</BirthDate><Status>Active</Status><AddressID>0002</AddressID><Gender>None</Gender><LastVisitDate>2018-02-06</LastVisitDate><LastMaintenanceDate>2018-02-06T02:38:46-07:00</LastMaintenanceDate><FirstVisitDate/><StaffID/><OfficeID/><ExtensibleNotes/></record>
+</Patients>
+<Addresses>
+<record><ID>0001</ID><State>Alaska</State><City>Anchorage</City><Street>customer street no.0001</Street><ZipCode>0001</ZipCode><Country/></record>
+<record><ID>0002</ID><State>Arizona</State><City>South_Tucson</City><Street>customer street no.0002</Street><ZipCode>0002</ZipCode><Country/></record>
+</Addresses>
+<Offices>
+<record><ID>FAKE_OFFICE</ID><OfficeName>IBEX Office</OfficeName><AddressID>0022</AddressID><FederalTaxID/><NationalProviderID/><PhoneNumber/></record>
+</Offices>
+<EMails>
+<record><ID>01Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>01Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>01Opt_in_T_A 01Opt_in_E_A</OwnerName></record>
+<record><ID>02Opt_in_E_A_QAA01Dental@d3one.com</ID><EMail>02Opt_in_E_A_QAA01Dental@d3one.com</EMail><OwnerName>02Opt_in_T_A 02Opt_in_E_A</OwnerName></record>
+</EMails>
+<PatientEMailLinks>
+<record><ID>0001</ID><PatientID>0001</PatientID><EMailID>01Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+<record><ID>0002</ID><PatientID>0002</PatientID><EMailID>02Opt_in_E_A_QAA01Dental@d3one.com</EMailID><EMailType>1</EMailType></record>
+</PatientEMailLinks>
+<Appointments>
+</Appointments>
+<Accounts>
+<record><ID>0001_0001</ID><PatientResponsibleLinkID>0001_0001</PatientResponsibleLinkID><InsuranceContractID>Cash, Master, Visa</InsuranceContractID><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+<record><ID>0002_0002</ID><PatientResponsibleLinkID>0002_0002</PatientResponsibleLinkID><InsuranceContractID/><CurrentDue>300.01</CurrentDue><Over30>50.1</Over30><Over60>100.01</Over60><Over90>150.01</Over90><Balance>200.01</Balance><Total>1240.01</Total><NextPaymentDate/><NextPaymentAmount/></record>
+</Accounts>
+<PatientResponsibleLinks>
+<record><ID>0001_0001</ID><PatientID>0001</PatientID><ResponsibleID>0001</ResponsibleID></record>
+<record><ID>0002_0002</ID><PatientID>0002</PatientID><ResponsibleID>0002</ResponsibleID></record>
+</PatientResponsibleLinks>
+<Responsibles>
+<record><ID>0001</ID><FirstName>01Opt_in_T_A</FirstName><LastName>01Opt_in_E_A</LastName><BirthDate>1989-01-02</BirthDate><AddressID/></record>
+<record><ID>0002</ID><FirstName>02Opt_in_T_A</FirstName><LastName>02Opt_in_E_A</LastName><BirthDate>1989-01-03</BirthDate><AddressID/></record>
+</Responsibles>
+<Procedures>
+</Procedures>
+<AppointmentProcedureLinks>
+</AppointmentProcedureLinks>
+<InsuranceContracts>
+<record><ID>Cash, Master, Visa</ID><Carrier>Cash, Master, Visa</Carrier><IID/><InsurancePlan>Cash, Master, Visa</InsurancePlan><InsurancePlanType>0</InsurancePlanType><Rank>2</Rank><DentalBenefit/><DentalUsed/><OrthoBenefit/><OrthoUsed/><BenefitMonth/><EmployerID/></record>
+</InsuranceContracts>
+<Alerts>
+<record><ID>533707</ID><Description>Sinus Trouble</Description></record>
+<record><ID>959503</ID><Description>Cold Sores/Fever Blisters</Description></record>
+<record><ID>501274</ID><Description>Blood Disease</Description></record>
+<record><ID>964649</ID><Description>Alzheimer`s Disease</Description></record>
+<record><ID>694217</ID><Description>Blood Transfusion</Description></record>
+<record><ID>105491</ID><Description>Allergic to Penicillin</Description></record>
+</Alerts>
+<PatientAlertLinks>
+<record><ID>0001_533707</ID><PatientID>0001</PatientID><AlertID>533707</AlertID></record>
+<record><ID>0001_959503</ID><PatientID>0001</PatientID><AlertID>959503</AlertID></record>
+<record><ID>0001_501274</ID><PatientID>0001</PatientID><AlertID>501274</AlertID></record>
+<record><ID>0002_964649</ID><PatientID>0002</PatientID><AlertID>964649</AlertID></record>
+<record><ID>0002_694217</ID><PatientID>0002</PatientID><AlertID>694217</AlertID></record>
+<record><ID>0002_105491</ID><PatientID>0002</PatientID><AlertID>105491</AlertID></record>
+</PatientAlertLinks>
+<Ledgers>
+</Ledgers>
+</insert>
+<update/>
+<delete/>
+</udbf-3>
