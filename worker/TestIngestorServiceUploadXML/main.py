@@ -140,7 +140,7 @@ def compress_to_gz_file(file_name):
 if __name__ == '__main__':
 
     folder = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data')
-    upload_file = 'test_delta.xml'
+    upload_file = 'test.xml'
     env = 'stg'
     env = 'prod'
 
